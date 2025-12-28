@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAR Production Optimizer v2</title>
-   <style>
+    <title>BAR Production Optimizer</title>
+    <style>
         :root {
             --bg-dark: #1e1e1e;
             --bg-panel: #252526;
@@ -15,50 +15,50 @@
             --success: #4ec9b0;
             --warn: #ce9178;      /* Orange */
             --highlight: #dcdcaa; /* Yellow */
+            
+            /* Resource Colors */
+            --res-metal: #64b5f6; /* Light Blue */
+            --res-energy: #ffd700; /* Gold */
         }
 
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-dark); color: var(--text-main); margin: 0; padding: 20px; display: flex; justify-content: center; }
-        .container { width: 1100px; max-width: 100%; display: grid; grid-template-columns: 300px 1fr; gap: 20px; }
-        .sidebar, .main-content { background: var(--bg-panel); padding: 20px; border: 1px solid var(--border); border-radius: 4px; }
+        .container { width: 1200px; max-width: 100%; display: grid; grid-template-columns: 300px 1fr; gap: 20px; }
+        
+        /* Sidebar & Panels */
+        .sidebar { background: var(--bg-panel); padding: 20px; border: 1px solid var(--border); border-radius: 4px; }
+        .main-content { background: var(--bg-panel); padding: 20px; border: 1px solid var(--border); border-radius: 4px; }
+        
+        /* Inputs */
         .control-group { margin-bottom: 20px; }
         label { display: block; font-size: 0.85rem; color: var(--text-mute); margin-bottom: 5px; }
         select, input { width: 100%; padding: 8px; background: #3c3c3c; border: 1px solid var(--border); color: white; border-radius: 3px; box-sizing: border-box; }
         input:focus, select:focus { outline: 1px solid var(--accent); }
-        .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; background: #333; padding: 10px; border-radius: 4px; }
-        .stat-box small { display: block; color: var(--text-mute); }
+        
+        /* Header Stats - Updated to 6 columns */
+        .stat-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-bottom: 20px; background: #333; padding: 10px; border-radius: 4px; }
+        .stat-box small { display: block; color: var(--text-mute); font-size: 0.8rem; }
         .stat-box span { font-weight: bold; font-size: 1.1rem; }
         
-        .recommendation-box { background: rgba(0, 122, 204, 0.15); border-left: 4px solid var(--accent); padding: 15px; margin-bottom: 25px; }
+        /* Rec Box */
+        .recommendation-box { background: rgba(0, 122, 204, 0.15); border-left: 4px solid var(--accent); padding: 15px; margin-bottom: 25px; display: none; }
         .rec-title { font-weight: bold; color: var(--accent); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
         .rec-main { font-size: 1.4rem; margin: 5px 0; font-weight: bold; }
         .rec-sub { color: var(--text-mute); font-size: 0.9rem; }
 
-        table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.9rem; }
+        /* Table */
+        table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.85rem; }
         th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #3e3e42; }
         th { color: var(--text-mute); font-weight: normal; }
 
         /* --- CELL STYLES --- */
-        
-        /* 1. Winner (Green) */
-        .style-green {
-            background: rgba(78, 201, 176, 0.1); 
-            color: var(--success);
-            font-weight: bold;
-        }
+        .style-green { background: rgba(78, 201, 176, 0.1); color: var(--success); font-weight: bold; }
+        .style-yellow { background: rgba(220, 220, 170, 0.15); color: var(--highlight); font-weight: bold; }
+        .style-orange { background: rgba(206, 145, 120, 0.15); color: var(--warn); font-weight: bold; }
 
-        /* 2. Transition (Yellow, No Border) */
-        .style-yellow {
-            background: rgba(220, 220, 170, 0.15); 
-            color: var(--highlight);
-            font-weight: bold;
-        }
-
-        /* 3. Saturated (Orange) */
-        .style-orange {
-            background: rgba(206, 145, 120, 0.15); 
-            color: var(--warn);
-            font-weight: bold;
-        }
+        /* Resource Styles */
+        .res-m { color: var(--res-metal); font-weight: bold; }
+        .res-e { color: var(--res-energy); font-weight: bold; }
+        .drain-cell { font-family: 'Consolas', monospace; font-size: 0.85rem; }
     </style>
 </head>
 <body>
@@ -66,14 +66,10 @@
 <div class="container">
     <div class="sidebar">
         <h3>Configuration</h3>
-        
         <div class="control-group">
             <label>Select Unit</label>
-            <select id="unitSelect">
-                <option value="">Loading units...</option>
-            </select>
+            <select id="unitSelect"><option value="">Loading...</option></select>
         </div>
-
         <div class="control-group">
             <label>Factory Type</label>
             <select id="factoryType">
@@ -81,27 +77,19 @@
                 <option value="CENTER">Cortex Bot Lab (Center Spawn)</option>
             </select>
         </div>
-
         <hr style="border-color: var(--border)">
-
         <div class="control-group">
             <label>Lab Cost (Metal / Energy / BP)</label>
             <div style="display:flex; gap:5px;">
-                <input type="number" id="labM" value="500" title="Metal">
-                <input type="number" id="labE" value="950" title="Energy">
-                <input type="number" id="labBP" value="150" title="BP">
+                <input type="number" id="labM" value="500"><input type="number" id="labE" value="950"><input type="number" id="labBP" value="150">
             </div>
         </div>
-
         <div class="control-group">
             <label>Turret Cost (Metal / Energy / BP)</label>
             <div style="display:flex; gap:5px;">
-                <input type="number" id="turM" value="210" title="Metal">
-                <input type="number" id="turE" value="3200" title="Energy">
-                <input type="number" id="turBP" value="200" title="BP">
+                <input type="number" id="turM" value="210"><input type="number" id="turE" value="3200"><input type="number" id="turBP" value="200">
             </div>
         </div>
-
         <div class="control-group">
             <label>Energy-to-Metal Ratio</label>
             <input type="number" id="emRatio" value="60">
@@ -112,54 +100,42 @@
         <h2 id="unitName">Select a Unit</h2>
         
         <div class="stat-grid">
-            <div class="stat-box"><small>Cost (BP)</small><span id="dispCost">-</span></div>
+            <div class="stat-box"><small>Metal Cost</small><span id="dispMetal" class="res-m">-</span></div>
+            <div class="stat-box"><small>Energy Cost</small><span id="dispEnergy" class="res-e">-</span></div>
+            <div class="stat-box"><small>Build Power</small><span id="dispCost">-</span></div>
             <div class="stat-box"><small>Speed</small><span id="dispSpeed">-</span></div>
             <div class="stat-box"><small>Accel</small><span id="dispAccel">-</span></div>
-            <div class="stat-box"><small>Roll-Off Time</small><span id="rollOffTime">-</span></div>
+            <div class="stat-box"><small>Roll-Off</small><span id="rollOffTime">-</span></div>
         </div>
 
-        <div class="recommendation-box" id="recBox" style="display:none;">
+        <div class="recommendation-box" id="recBox">
             <div class="rec-title">Optimal Expansion Strategy</div>
             <div class="rec-main" id="recMainText"></div>
             <div class="rec-sub" id="recSubText"></div>
-        </div>
-
-        <div style="background: #333; padding: 15px; border-radius: 4px; margin-bottom: 20px; font-size: 0.9rem; border: 1px solid var(--border);">
-            <strong>How is this calculated?</strong>
-            <p style="margin: 5px 0 0 0; color: var(--text-mute);">
-                We calculate an <em>Efficiency Score</em> (Lower is Better) using the formula:
-                <br>
-                <code style="color: var(--highlight); display:block; margin: 5px 0;">Score = Total Infrastructure Cost / Units Per Minute</code>
-                <ul style="margin: 5px 0; padding-left: 20px;">
-                    <li><strong>Total Cost:</strong> Metal + (Energy / 60) for all Labs & Turrets.</li>
-                    <li><strong>1-Lab UPM:</strong> Capped by "Idle Time" during Roll-Off.</li>
-                    <li><strong>2-Lab UPM:</strong> 100% Turret Uptime (Ping-Pong).</li>
-                </ul>
-            </p>
         </div>
 
         <h3>Efficiency Comparison (Lower Score is Better)</h3>
         <table>
             <thead>
                 <tr>
-                    <th>Turrets</th>
+                    <th style="width: 40px;">Tur</th>
                     <th>1-Lab Score</th>
                     <th>2-Lab Score</th>
                     <th>1-Lab UPM</th>
                     <th>2-Lab UPM</th>
+                    <th>1-Lab Drain/s</th>
+                    <th>2-Lab Drain/s</th>
                 </tr>
             </thead>
-            <tbody id="resultsBody">
-                </tbody>
+            <tbody id="resultsBody"></tbody>
         </table>
     </div>
+</div>
 
 <script>
-    // --- GLOBAL STATE ---
     let unitsDB = {};
-    const MAX_TURRETS = 18; // Cap visualization to keep table clean
+    const MAX_TURRETS = 18;
 
-    // --- DATA LOADING ---
     async function loadData() {
         try {
             const response = await fetch('bar_units_clean.json');
@@ -167,12 +143,10 @@
             unitsDB = await response.json();
             populateDropdown();
         } catch (e) {
-            console.warn("Using Fallback Data");
+            console.warn("JSON load failed. Using limited fallback data.");
             unitsDB = {
-                "corak": { name: "Grunt", description: "Standard Bot", cost: 1250, speed: 81, accel: 360, size_z: 24, metal: 42, energy: 820 },
-                "armflash": { name: "Blitz", description: "Fast Tank", cost: 2000, speed: 101, accel: 61.1, size_z: 32, metal: 180, energy: 1800 },
-                "armflea": { name: "Tick", description: "Fast Scout", cost: 800, speed: 132, accel: 517.5, size_z: 16, metal: 20, energy: 400 },
-                "corthud": { name: "Thug", description: "Assault Bot", cost: 2100, speed: 45, accel: 117, size_z: 30, metal: 140, energy: 1150 }
+                "armflash": { name: "Blitz", description: "Fast Tank", cost: 1960, speed: 101, accel: 61.1, size_z: 32, metal: 110, energy: 900 },
+                "corak": { name: "Grunt", description: "Standard Bot", cost: 1250, speed: 81, accel: 360, size_z: 24, metal: 42, energy: 820 }
             };
             populateDropdown();
         }
@@ -181,44 +155,31 @@
     function populateDropdown() {
         const select = document.getElementById('unitSelect');
         select.innerHTML = '<option value="">-- Choose Unit --</option>';
-        const sortedKeys = Object.keys(unitsDB).sort((a,b) => unitsDB[a].name.localeCompare(unitsDB[b].name));
-        sortedKeys.forEach(key => {
-            const u = unitsDB[key];
-            const option = document.createElement('option');
-            option.value = key;
-            option.textContent = `${u.name}`;
-            select.appendChild(option);
-        });
+        Object.keys(unitsDB).sort((a,b) => unitsDB[a].name.localeCompare(unitsDB[b].name))
+            .forEach(key => {
+                const opt = document.createElement('option');
+                opt.value = key;
+                opt.textContent = unitsDB[key].name;
+                select.appendChild(opt);
+            });
     }
 
-    // --- PHYSICS ENGINE ---
     function calculatePhysics(unit, factoryMode) {
         let dist, buffer, clearanceMult;
-
-        if (factoryMode === "EXIT") {
-            clearanceMult = 0.65; buffer = 2.0;
-            dist = (unit.size_z * clearanceMult) + buffer;
-        } else {
-            // Cortex Bot: Center spawn logic corrected based on Thug findings
-            // Needs to clear its own size + buffer to free queue
-            clearanceMult = 1.0; buffer = 5.0;
-            dist = (unit.size_z * clearanceMult) + buffer; 
-        }
+        if (factoryMode === "EXIT") { clearanceMult = 0.65; buffer = 2.0; dist = (unit.size_z * clearanceMult) + buffer; } 
+        else { clearanceMult = 1.0; buffer = 5.0; dist = (unit.size_z * clearanceMult) + buffer; }
 
         const t_accel = unit.speed / unit.accel;
         const d_accel = 0.5 * unit.accel * (t_accel * t_accel);
 
-        let t_roll = 0;
-        if (dist <= d_accel) {
-            t_roll = Math.sqrt((2 * dist) / unit.accel);
-        } else {
-            const t_cruise = (dist - d_accel) / unit.speed;
-            t_roll = t_accel + t_cruise;
-        }
-        return t_roll;
+        if (dist <= d_accel) return Math.sqrt((2 * dist) / unit.accel);
+        return t_accel + ((dist - d_accel) / unit.speed);
     }
 
-    // --- MAIN OPTIMIZER ---
+    function formatDrain(metal, energy) {
+        return `<span class="res-m">-${Math.round(metal)}</span> <span style="margin-left:5px;" class="res-e">-${Math.round(energy)}</span>`;
+    }
+
     function runOptimization() {
         const unitKey = document.getElementById('unitSelect').value;
         if (!unitKey) return;
@@ -226,7 +187,7 @@
         const unit = unitsDB[unitKey];
         const factoryMode = document.getElementById('factoryType').value;
         
-        // 1. Get Config
+        // Inputs
         const labBP = parseFloat(document.getElementById('labBP').value);
         const turBP = parseFloat(document.getElementById('turBP').value);
         const labM = parseFloat(document.getElementById('labM').value);
@@ -238,27 +199,26 @@
         const wCostLab = labM + (labE / emRatio);
         const wCostTur = turM + (turE / emRatio);
 
-        // 2. Display Stats
+        // Header Update
         document.getElementById('unitName').textContent = unit.name;
+        document.getElementById('dispMetal').textContent = unit.metal;
+        document.getElementById('dispEnergy').textContent = unit.energy;
         document.getElementById('dispCost').textContent = unit.cost;
         document.getElementById('dispSpeed').textContent = unit.speed;
         document.getElementById('dispAccel').textContent = unit.accel;
-        
         const t_roll = calculatePhysics(unit, factoryMode);
         document.getElementById('rollOffTime').textContent = t_roll.toFixed(3) + "s";
 
-        // --- PASS 1: CALCULATE DATA ---
+        // PASS 1: DATA
         let rowData = [];
-        let minScore1 = Infinity;
-        let minIndex1 = 0;
-        let minScore2 = Infinity;
-        let minIndex2 = 0;
+        let minScore1 = Infinity; let minIndex1 = 0;
+        let minScore2 = Infinity; let minIndex2 = 0;
 
         for (let x = 0; x <= MAX_TURRETS; x++) {
             // Scenario A (1 Lab)
             const bp_1 = labBP + (x * turBP);
             const build_1 = unit.cost / bp_1;
-            const cycle_1 = build_1 + t_roll; 
+            const cycle_1 = build_1 + t_roll; // Sequential (Build + Roll)
             const upm_1 = 60 / cycle_1;
             const score_1 = (wCostLab + (x * wCostTur)) / upm_1;
 
@@ -271,66 +231,59 @@
             } else {
                 const bp_active = labBP + (x * turBP);
                 const build_pingpong = unit.cost / bp_active;
+                // Ping-Pong: Cycle for 2 units = Build + Max(Build, Roll)
                 const cycle_2_units = build_pingpong + Math.max(build_pingpong, t_roll);
                 upm_2 = 120 / cycle_2_units;
             }
             const score_2 = cost_2 / upm_2;
 
-            // Track Minima
             if (score_1 <= minScore1) { minScore1 = score_1; minIndex1 = x; }
             if (score_2 <= minScore2) { minScore2 = score_2; minIndex2 = x; }
 
-            rowData.push({ x, score_1, score_2, upm_1, upm_2 });
+            // Resource Drain Calc
+            const ups_1 = upm_1 / 60;
+            const ups_2 = upm_2 / 60;
+            const drain_1 = { m: ups_1 * unit.metal, e: ups_1 * unit.energy };
+            const drain_2 = { m: ups_2 * unit.metal, e: ups_2 * unit.energy };
+
+            rowData.push({ x, score_1, score_2, upm_1, upm_2, drain_1, drain_2 });
         }
 
-        // --- PASS 2: FIND BREAKPOINT ---
+        // PASS 2: BREAKPOINT
         let breakpointIndex = -1;
         rowData.forEach(row => {
-            const win2 = row.score_2 < (row.score_1 - 0.1);
-            if (win2 && breakpointIndex === -1) {
+            if (row.score_2 < (row.score_1 - 0.1) && breakpointIndex === -1) {
                 breakpointIndex = row.x;
             }
         });
 
-        // --- PASS 3: RENDER ---
+        // PASS 3: RENDER
         const tbody = document.getElementById('resultsBody');
         tbody.innerHTML = '';
 
         rowData.forEach(row => {
             const tr = document.createElement('tr');
-            
             let class1 = "";
             let class2 = "";
 
-            // --- 1. DEFAULT LOGIC (Green Path) ---
+            // Base Logic (Green Path)
             if (breakpointIndex === -1) {
                 class1 = "style-green";
             } else {
-                if (row.x < breakpointIndex) {
-                    class1 = "style-green";
-                } else if (row.x === breakpointIndex) {
-                    class1 = "style-yellow"; // Transition
-                    class2 = "style-green";  // Destination
-                } else {
-                    class2 = "style-green";
-                }
+                if (row.x < breakpointIndex) class1 = "style-green";
+                else if (row.x === breakpointIndex) { class1 = "style-yellow"; class2 = "style-green"; }
+                else class2 = "style-green";
             }
 
-            // --- 2. SATURATION OVERRIDE (Orange) ---
-            // We apply Orange if saturation is detected...
-            // UNLESS it is the specific Transition Cell (breakpointIndex on Col 1).
-            
+            // Saturation Logic (Override with Orange)
             const isTransitionCell = (row.x === breakpointIndex);
 
-            if (row.x > minIndex1) {
-                if (!isTransitionCell) {
-                    class1 = "style-orange";
-                }
-            }
-            
-            if (row.x > minIndex2) {
-                class2 = "style-orange";
-            }
+            if (row.x > minIndex1 && !isTransitionCell) class1 = "style-orange";
+            if (row.x > minIndex2) class2 = "style-orange";
+
+            // Format Drains
+            const htmlDrain1 = formatDrain(row.drain_1.m, row.drain_1.e);
+            const htmlDrain2 = formatDrain(row.drain_2.m, row.drain_2.e);
 
             tr.innerHTML = `
                 <td>${row.x}</td>
@@ -338,35 +291,33 @@
                 <td class="${class2}">${row.score_2.toFixed(1)}</td>
                 <td>${row.upm_1.toFixed(1)}</td>
                 <td>${row.upm_2.toFixed(1)}</td>
+                <td class="drain-cell">${htmlDrain1}</td>
+                <td class="drain-cell">${htmlDrain2}</td>
             `;
             tbody.appendChild(tr);
         });
 
-        // 4. Recommendation Logic
+        // Rec Box Logic
         const recBox = document.getElementById('recBox');
-        const recMain = document.getElementById('recMainText');
-        const recSub = document.getElementById('recSubText');
-        
         recBox.style.display = 'block';
         if (breakpointIndex > 0) {
-             const limit = breakpointIndex; 
-             recMain.textContent = `Build 1 Lab + ${limit} Turrets -> Then Expand.`;
-             recSub.textContent = `At ${limit} turrets (Yellow), build the turret first, then immediately buy the 2nd Factory (Green).`;
+             document.getElementById('recMainText').textContent = `Build 1 Lab + ${breakpointIndex} Turrets -> Then Expand.`;
+             document.getElementById('recSubText').textContent = `At ${breakpointIndex} turrets (Yellow), build the turret first, then immediately buy the 2nd Factory (Green).`;
         } else if (breakpointIndex === 0) {
-             recMain.textContent = "Start with 2 Factories immediately.";
-             recSub.textContent = "1 Lab is inefficient from the very start.";
+             document.getElementById('recMainText').textContent = "Start with 2 Factories immediately.";
+             document.getElementById('recSubText').textContent = "1 Lab is inefficient from the start.";
         } else {
-            recMain.textContent = "Stick to 1 Lab.";
-            recSub.textContent = "For this unit, a 2nd Lab is never efficient within the tested range.";
+            document.getElementById('recMainText').textContent = "Stick to 1 Lab.";
+            document.getElementById('recSubText').textContent = "2nd Lab is never efficient in this range.";
         }
     }
-    // --- EVENTS ---
+
+    // Events
     document.getElementById('unitSelect').addEventListener('change', runOptimization);
     document.getElementById('factoryType').addEventListener('change', runOptimization);
     document.querySelectorAll('input').forEach(i => i.addEventListener('input', runOptimization));
 
     loadData();
-
 </script>
 </body>
 </html>
