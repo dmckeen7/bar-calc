@@ -1,0 +1,4652 @@
+{
+    "armassistdrone": {
+        "name": "Units/scavboss/ARMASSISTDRONE.s3o",
+        "description": "",
+        "cost": 500.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 210.0,
+        "accel": 63.00000000000001,
+        "size_z": 16.0
+    },
+    "armassistdrone_land": {
+        "name": "Units/armassistdrone_land.s3o",
+        "description": "",
+        "cost": 500.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 37.5,
+        "accel": 900.0,
+        "size_z": 21.0
+    },
+    "armcom": {
+        "name": "Units/ARMCOM.s3o",
+        "description": "",
+        "cost": 75000.0,
+        "metal": 2700.0,
+        "energy": 26000.0,
+        "speed": 1800.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "armcomcon": {
+        "name": "Units/ARMCOM.s3o",
+        "description": "",
+        "cost": 75000.0,
+        "metal": 2700.0,
+        "energy": 26000.0,
+        "speed": 1800.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "armcomnew": {
+        "name": "Units/ARMCOM",
+        "description": "",
+        "cost": 75000.0,
+        "metal": 2700.0,
+        "energy": 26000.0,
+        "speed": 1800.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "corassistdrone": {
+        "name": "Units/scavboss/CORASSISTDRONE.s3o",
+        "description": "",
+        "cost": 500.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 210.0,
+        "accel": 63.00000000000001,
+        "size_z": 16.0
+    },
+    "corassistdrone_land": {
+        "name": "Units/corassistdrone_land.s3o",
+        "description": "",
+        "cost": 500.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 37.5,
+        "accel": 900.0,
+        "size_z": 21.0
+    },
+    "corcom": {
+        "name": "Units/CORCOM.s3o",
+        "description": "",
+        "cost": 75000.0,
+        "metal": 2700.0,
+        "energy": 26000.0,
+        "speed": 1800.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "corcomcon": {
+        "name": "Units/CORCOM.s3o",
+        "description": "",
+        "cost": 75000.0,
+        "metal": 2700.0,
+        "energy": 26000.0,
+        "speed": 1800.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "legassistdrone": {
+        "name": "Units/scavboss/LEGASSISTDRONE.s3o",
+        "description": "",
+        "cost": 500.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 210.0,
+        "accel": 63.00000000000001,
+        "size_z": 16.0
+    },
+    "legassistdrone_land": {
+        "name": "Units/legassistdrone_land.s3o",
+        "description": "",
+        "cost": 500.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 37.5,
+        "accel": 900.0,
+        "size_z": 21.0
+    },
+    "armatlas": {
+        "name": "Units/ARMATLAS.s3o",
+        "description": "",
+        "cost": 3850.0,
+        "metal": 68.0,
+        "energy": 1300.0,
+        "speed": 207.0,
+        "accel": 90.0,
+        "size_z": 32.0
+    },
+    "armca": {
+        "name": "Units/ARMCA.s3o",
+        "description": "",
+        "cost": 7960.0,
+        "metal": 110.0,
+        "energy": 3000.0,
+        "speed": 208.2,
+        "accel": 63.00000000000001,
+        "size_z": 32.0
+    },
+    "armdrone": {
+        "name": "Units/ARMDRONE.s3o",
+        "description": "",
+        "cost": 1200.0,
+        "metal": 25.0,
+        "energy": 600.0,
+        "speed": 330.0,
+        "accel": 198.0,
+        "size_z": 16.0
+    },
+    "armdroneold": {
+        "name": "Units/ARMDRONEOLD.s3o",
+        "description": "",
+        "cost": 2200.0,
+        "metal": 55.0,
+        "energy": 1100.0,
+        "speed": 225.0,
+        "accel": 180.0,
+        "size_z": 32.0
+    },
+    "armfig": {
+        "name": "Units/ARMFIG.s3o",
+        "description": "",
+        "cost": 3500.0,
+        "metal": 73.0,
+        "energy": 2900.0,
+        "speed": 289.20001,
+        "accel": 164.25,
+        "size_z": 32.0
+    },
+    "armhvytrans": {
+        "name": "Units/armhvytrans.s3o",
+        "description": "",
+        "cost": 8500.0,
+        "metal": 190.0,
+        "energy": 4000.0,
+        "speed": 110.0,
+        "accel": 90.0,
+        "size_z": 32.0
+    },
+    "armkam": {
+        "name": "Units/ARMKAM.s3o",
+        "description": "",
+        "cost": 5050.0,
+        "metal": 135.0,
+        "energy": 2300.0,
+        "speed": 184.8,
+        "accel": 135.0,
+        "size_z": 32.0
+    },
+    "armpeep": {
+        "name": "Units/ARMPEEP.s3o",
+        "description": "",
+        "cost": 2800.0,
+        "metal": 52.0,
+        "energy": 1550.0,
+        "speed": 375.0,
+        "accel": 164.25,
+        "size_z": 32.0
+    },
+    "armthund": {
+        "name": "Units/ARMTHUND.s3o",
+        "description": "",
+        "cost": 4780.0,
+        "metal": 145.0,
+        "energy": 4200.0,
+        "speed": 255.0,
+        "accel": 51.75,
+        "size_z": 48.0
+    },
+    "armaca": {
+        "name": "Units/ARMACA.s3o",
+        "description": "",
+        "cost": 17750.0,
+        "metal": 340.0,
+        "energy": 12000.0,
+        "speed": 192.0,
+        "accel": 63.00000000000001,
+        "size_z": 32.0
+    },
+    "armawac": {
+        "name": "Units/ARMAWAC.s3o",
+        "description": "",
+        "cost": 12800.0,
+        "metal": 175.0,
+        "energy": 8600.0,
+        "speed": 317.39999,
+        "accel": 141.75,
+        "size_z": 48.0
+    },
+    "armblade": {
+        "name": "Units/ARMBLADE.s3o",
+        "description": "",
+        "cost": 24000.0,
+        "metal": 1250.0,
+        "energy": 22000.0,
+        "speed": 204.0,
+        "accel": 540.0,
+        "size_z": 32.0
+    },
+    "armbrawl": {
+        "name": "Units/ARMBRAWL.s3o",
+        "description": "",
+        "cost": 13500.0,
+        "metal": 310.0,
+        "energy": 6200.0,
+        "speed": 160.8,
+        "accel": 216.0,
+        "size_z": 48.0
+    },
+    "armdfly": {
+        "name": "Units/ARMDFLY.s3o",
+        "description": "",
+        "cost": 16000.0,
+        "metal": 320.0,
+        "energy": 6600.0,
+        "speed": 225.0,
+        "accel": 180.0,
+        "size_z": 52.0
+    },
+    "armhawk": {
+        "name": "Units/ARMHAWK.s3o",
+        "description": "",
+        "cost": 8900.0,
+        "metal": 140.0,
+        "energy": 5700.0,
+        "speed": 358.79999,
+        "accel": 209.25,
+        "size_z": 32.0
+    },
+    "armlance": {
+        "name": "Units/ARMLANCE.s3o",
+        "description": "",
+        "cost": 15100.0,
+        "metal": 400.0,
+        "energy": 8000.0,
+        "speed": 285.0,
+        "accel": 119.25,
+        "size_z": 64.0
+    },
+    "armliche": {
+        "name": "Units/ARMLICHE.s3o",
+        "description": "",
+        "cost": 57400.0,
+        "metal": 2200.0,
+        "energy": 46000.0,
+        "speed": 294.89999,
+        "accel": 96.75,
+        "size_z": 48.0
+    },
+    "armpnix": {
+        "name": "Units/ARMPNIX.s3o",
+        "description": "",
+        "cost": 21000.0,
+        "metal": 230.0,
+        "energy": 12500.0,
+        "speed": 258.0,
+        "accel": 47.25,
+        "size_z": 48.0
+    },
+    "armstil": {
+        "name": "Units/ARMSTIL.s3o",
+        "description": "",
+        "cost": 32000.0,
+        "metal": 460.0,
+        "energy": 38000.0,
+        "speed": 300.0,
+        "accel": 141.75,
+        "size_z": 24.0
+    },
+    "armck": {
+        "name": "Units/ARMCK.s3o",
+        "description": "",
+        "cost": 3450.0,
+        "metal": 110.0,
+        "energy": 1600.0,
+        "speed": 36.0,
+        "accel": 496.80000000000007,
+        "size_z": 27.0
+    },
+    "armflea": {
+        "name": "Units/ARMFLEA.s3o",
+        "description": "",
+        "cost": 800.0,
+        "metal": 21.0,
+        "energy": 300.0,
+        "speed": 132.0,
+        "accel": 517.5,
+        "size_z": 20.0
+    },
+    "armham": {
+        "name": "Units/ARMHAM.s3o",
+        "description": "",
+        "cost": 2200.0,
+        "metal": 130.0,
+        "energy": 1300.0,
+        "speed": 46.2,
+        "accel": 124.20000000000002,
+        "size_z": 29.0
+    },
+    "armjeth": {
+        "name": "Units/ARMJETH.s3o",
+        "description": "",
+        "cost": 1830.0,
+        "metal": 125.0,
+        "energy": 1100.0,
+        "speed": 56.25,
+        "accel": 124.20000000000002,
+        "size_z": 28.0
+    },
+    "armpw": {
+        "name": "Units/ARMPW.s3o",
+        "description": "",
+        "cost": 1650.0,
+        "metal": 54.0,
+        "energy": 900.0,
+        "speed": 87.0,
+        "accel": 372.59999999999997,
+        "size_z": 22.0
+    },
+    "armrectr": {
+        "name": "Units/ARMRECTR.s3o",
+        "description": "",
+        "cost": 2800.0,
+        "metal": 130.0,
+        "energy": 1400.0,
+        "speed": 78.0,
+        "accel": 207.0,
+        "size_z": 24.0
+    },
+    "armrock": {
+        "name": "Units/ARMROCK.s3o",
+        "description": "",
+        "cost": 2010.0,
+        "metal": 120.0,
+        "energy": 1000.0,
+        "speed": 50.7,
+        "accel": 124.20000000000002,
+        "size_z": 24.0
+    },
+    "armwar": {
+        "name": "Units/ARMWAR.s3o",
+        "description": "",
+        "cost": 4200.0,
+        "metal": 270.0,
+        "energy": 3100.0,
+        "speed": 45.0,
+        "accel": 74.52,
+        "size_z": 30.0
+    },
+    "armaak": {
+        "name": "Units/ARMAAK.s3o",
+        "description": "",
+        "cost": 7000.0,
+        "metal": 520.0,
+        "energy": 5600.0,
+        "speed": 47.4,
+        "accel": 124.20000000000002,
+        "size_z": 16.0
+    },
+    "armack": {
+        "name": "Units/ARMACK.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 430.0,
+        "energy": 6900.0,
+        "speed": 33.0,
+        "accel": 447.12,
+        "size_z": 23.0
+    },
+    "armamph": {
+        "name": "Units/ARMAMPH.s3o",
+        "description": "",
+        "cost": 5200.0,
+        "metal": 260.0,
+        "energy": 2700.0,
+        "speed": 90.0,
+        "accel": 124.20000000000002,
+        "size_z": 21.0
+    },
+    "armaser": {
+        "name": "Units/ARMASER.s3o",
+        "description": "",
+        "cost": 4940.0,
+        "metal": 78.0,
+        "energy": 1400.0,
+        "speed": 48.3,
+        "accel": 124.20000000000002,
+        "size_z": 24.0
+    },
+    "armdecom": {
+        "name": "Units/ARMCOM.s3o",
+        "description": "",
+        "cost": 24000.0,
+        "metal": 770.0,
+        "energy": 12000.0,
+        "speed": 900.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "armfark": {
+        "name": "Units/ARMFARK.s3o",
+        "description": "",
+        "cost": 4300.0,
+        "metal": 210.0,
+        "energy": 3000.0,
+        "speed": 75.0,
+        "accel": 447.12,
+        "size_z": 17.0
+    },
+    "armfast": {
+        "name": "Units/ARMFAST.s3o",
+        "description": "",
+        "cost": 3564.0,
+        "metal": 171.0,
+        "energy": 4140.0,
+        "speed": 111.3,
+        "accel": 372.59999999999997,
+        "size_z": 28.0
+    },
+    "armfboy": {
+        "name": "Units/ARMFBOY.s3o",
+        "description": "",
+        "cost": 21000.0,
+        "metal": 1400.0,
+        "energy": 11000.0,
+        "speed": 30.0,
+        "accel": 124.20000000000002,
+        "size_z": 42.0
+    },
+    "armfido": {
+        "name": "Units/ARMFIDO.s3o",
+        "description": "",
+        "cost": 6230.0,
+        "metal": 285.0,
+        "energy": 6300.0,
+        "speed": 69.0,
+        "accel": 124.20000000000002,
+        "size_z": 28.0
+    },
+    "armhack": {
+        "name": "Units/ARMFARK.s3o",
+        "description": "",
+        "cost": 28600.0,
+        "metal": 1260.0,
+        "energy": 18000.0,
+        "speed": 75.0,
+        "accel": 447.12,
+        "size_z": 17.0
+    },
+    "armmark": {
+        "name": "Units/ARMMARK.s3o",
+        "description": "",
+        "cost": 3800.0,
+        "metal": 100.0,
+        "energy": 1250.0,
+        "speed": 40.5,
+        "accel": 46.574999999999996,
+        "size_z": 16.0
+    },
+    "armmav": {
+        "name": "Units/ARMMAV.s3o",
+        "description": "",
+        "cost": 17000.0,
+        "metal": 650.0,
+        "energy": 11000.0,
+        "speed": 49.5,
+        "accel": 124.20000000000002,
+        "size_z": 36.0
+    },
+    "armsack": {
+        "name": "Units/LEGACK.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 400.0,
+        "energy": 6900.0,
+        "speed": 33.0,
+        "accel": 447.12,
+        "size_z": 23.0
+    },
+    "armscab": {
+        "name": "Units/ARMSCAB.s3o",
+        "description": "",
+        "cost": 40000.0,
+        "metal": 1150.0,
+        "energy": 30000.0,
+        "speed": 51.0,
+        "accel": 32.967000000000006,
+        "size_z": 49.0
+    },
+    "armsnipe": {
+        "name": "Units/ARMSNIPE.s3o",
+        "description": "",
+        "cost": 19000.0,
+        "metal": 680.0,
+        "energy": 20000.0,
+        "speed": 33.0,
+        "accel": 124.20000000000002,
+        "size_z": 30.0
+    },
+    "armspid": {
+        "name": "Units/ARMSPID.s3o",
+        "description": "",
+        "cost": 5100.0,
+        "metal": 250.0,
+        "energy": 5000.0,
+        "speed": 71.55,
+        "accel": 186.29999999999998,
+        "size_z": 28.0
+    },
+    "armsptk": {
+        "name": "Units/ARMSPTK.s3o",
+        "description": "",
+        "cost": 8800.0,
+        "metal": 400.0,
+        "energy": 4500.0,
+        "speed": 47.0,
+        "accel": 186.29999999999998,
+        "size_z": 42.0
+    },
+    "armspy": {
+        "name": "Units/ARMSPY.s3o",
+        "description": "",
+        "cost": 17600.0,
+        "metal": 135.0,
+        "energy": 8800.0,
+        "speed": 65.4,
+        "accel": 248.40000000000003,
+        "size_z": 15.0
+    },
+    "armvader": {
+        "name": "Units/ARMVADER.s3o",
+        "description": "",
+        "cost": 7900.0,
+        "metal": 65.0,
+        "energy": 5800.0,
+        "speed": 84.0,
+        "accel": 136.62,
+        "size_z": 17.0
+    },
+    "armzeus": {
+        "name": "Units/ARMZEUS.s3o",
+        "description": "",
+        "cost": 7250.0,
+        "metal": 350.0,
+        "energy": 6100.0,
+        "speed": 47.4,
+        "accel": 124.20000000000002,
+        "size_z": 35.0
+    },
+    "armamb": {
+        "name": "Units/ARMAMB.s3o",
+        "description": "",
+        "cost": 27000.0,
+        "metal": 2500.0,
+        "energy": 17000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "armamd": {
+        "name": "Units/ARMAMD.s3o",
+        "description": "",
+        "cost": 60000.0,
+        "metal": 1500.0,
+        "energy": 38000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 53.0
+    },
+    "armanni": {
+        "name": "Units/ARMANNI.s3o",
+        "description": "",
+        "cost": 52000.0,
+        "metal": 3500.0,
+        "energy": 74000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 54.0
+    },
+    "armbeamer": {
+        "name": "Units/ARMBEAMER.s3o",
+        "description": "",
+        "cost": 4800.0,
+        "metal": 190.0,
+        "energy": 1500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 33.0
+    },
+    "armbrtha": {
+        "name": "Units/ARMBRTHA.s3o",
+        "description": "",
+        "cost": 85000.0,
+        "metal": 4500.0,
+        "energy": 64000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "armcir": {
+        "name": "Units/ARMCIR.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 750.0,
+        "energy": 7300.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 50.0
+    },
+    "armclaw": {
+        "name": "Units/ARMCLAW.s3o",
+        "description": "",
+        "cost": 4650.0,
+        "metal": 340.0,
+        "energy": 1600.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 31.375
+    },
+    "armemp": {
+        "name": "Units/ARMEMP.s3o",
+        "description": "",
+        "cost": 79300.0,
+        "metal": 1600.0,
+        "energy": 29000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "armferret": {
+        "name": "Units/ARMFERRET.s3o",
+        "description": "",
+        "cost": 5800.0,
+        "metal": 360.0,
+        "energy": 5700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "armflak": {
+        "name": "Units/ARMFLAK.s3o",
+        "description": "",
+        "cost": 19000.0,
+        "metal": 820.0,
+        "energy": 13000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "armguard": {
+        "name": "Units/ARMGUARD.s3o",
+        "description": "",
+        "cost": 19300.0,
+        "metal": 1250.0,
+        "energy": 12500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "armhlt": {
+        "name": "Units/ARMHLT.s3o",
+        "description": "",
+        "cost": 11300.0,
+        "metal": 440.0,
+        "energy": 4700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "armjuno": {
+        "name": "Units/ARMJUNO.s3o",
+        "description": "",
+        "cost": 21800.0,
+        "metal": 640.0,
+        "energy": 17000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 44.0
+    },
+    "armllt": {
+        "name": "Units/ARMLLT.s3o",
+        "description": "",
+        "cost": 2400.0,
+        "metal": 85.0,
+        "energy": 680.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armmercury": {
+        "name": "Units/ARMMERCURY.s3o",
+        "description": "",
+        "cost": 28000.0,
+        "metal": 1600.0,
+        "energy": 33000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "armpb": {
+        "name": "Units/ARMPB.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 680.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armrl": {
+        "name": "Units/ARMRL.s3o",
+        "description": "",
+        "cost": 1800.0,
+        "metal": 80.0,
+        "energy": 900.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "armshockwave": {
+        "name": "Units/armshockwave.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 1200.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 40.0
+    },
+    "armsilo": {
+        "name": "Units/ARMSILO.s3o",
+        "description": "",
+        "cost": 178500.0,
+        "metal": 8100.0,
+        "energy": 90000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 90.0
+    },
+    "armvulc": {
+        "name": "Units/ARMVULC.s3o",
+        "description": "",
+        "cost": 1400000.0,
+        "metal": 70000.0,
+        "energy": 830000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 90.0
+    },
+    "armadvsol": {
+        "name": "Units/ARMADVSOL.s3o",
+        "description": "",
+        "cost": 7950.0,
+        "metal": 350.0,
+        "energy": 5000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "armafus": {
+        "name": "Units/ARMAFUS.s3o",
+        "description": "",
+        "cost": 312500.0,
+        "metal": 9700.0,
+        "energy": 69000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "armageo": {
+        "name": "Units/ARMAGEO.s3o",
+        "description": "",
+        "cost": 33300.0,
+        "metal": 1600.0,
+        "energy": 27000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 107.0
+    },
+    "armamex": {
+        "name": "Units/ARMAMEX.s3o",
+        "description": "",
+        "cost": 1800.0,
+        "metal": 200.0,
+        "energy": 1500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "armckfus": {
+        "name": "Units/ARMCKFUS.s3o",
+        "description": "",
+        "cost": 84400.0,
+        "metal": 4700.0,
+        "energy": 26000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 51.0
+    },
+    "armestor": {
+        "name": "Units/ARMESTOR.s3o",
+        "description": "",
+        "cost": 4110.0,
+        "metal": 170.0,
+        "energy": 1700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 42.0
+    },
+    "armfus": {
+        "name": "Units/ARMFUS.s3o",
+        "description": "",
+        "cost": 70000.0,
+        "metal": 4300.0,
+        "energy": 21000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 59.0
+    },
+    "armgeo": {
+        "name": "Units/ARMGEO.s3o",
+        "description": "",
+        "cost": 13100.0,
+        "metal": 560.0,
+        "energy": 13000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "armgmm": {
+        "name": "Units/ARMGMM.s3o",
+        "description": "",
+        "cost": 41500.0,
+        "metal": 1150.0,
+        "energy": 25000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 72.0
+    },
+    "armmakr": {
+        "name": "Units/ARMMAKR.s3o",
+        "description": "",
+        "cost": 2600.0,
+        "metal": 1.0,
+        "energy": 1150.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 40.0
+    },
+    "armmex": {
+        "name": "Units/ARMMEX.s3o",
+        "description": "",
+        "cost": 1800.0,
+        "metal": 50.0,
+        "energy": 500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "armmmkr": {
+        "name": "Units/ARMMMKR.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 380.0,
+        "energy": 21000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.6127624512
+    },
+    "armmoho": {
+        "name": "Units/ARMMOHO.s3o",
+        "description": "",
+        "cost": 14900.0,
+        "metal": 620.0,
+        "energy": 7700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 70.0
+    },
+    "armmstor": {
+        "name": "Units/ARMMSTOR.s3o",
+        "description": "",
+        "cost": 2920.0,
+        "metal": 330.0,
+        "energy": 570.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 56.0
+    },
+    "armsolar": {
+        "name": "Units/ARMSOLAR.s3o",
+        "description": "",
+        "cost": 2600.0,
+        "metal": 155.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 50.0
+    },
+    "armwin": {
+        "name": "Units/ARMWIN.s3o",
+        "description": "",
+        "cost": 1600.0,
+        "metal": 40.0,
+        "energy": 175.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 34.0
+    },
+    "armaap": {
+        "name": "Units/ARMAAP.s3o",
+        "description": "",
+        "cost": 20900.0,
+        "metal": 3200.0,
+        "energy": 29000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "armalab": {
+        "name": "Units/ARMALAB.s3o",
+        "description": "",
+        "cost": 16200.0,
+        "metal": 2900.0,
+        "energy": 15000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 140.0
+    },
+    "armap": {
+        "name": "Units/ARMAP.s3o",
+        "description": "",
+        "cost": 5750.0,
+        "metal": 710.0,
+        "energy": 1100.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 82.0
+    },
+    "armavp": {
+        "name": "Units/ARMAVP.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 2900.0,
+        "energy": 14000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 140.0
+    },
+    "armhaap": {
+        "name": "Units/ARMHAAP.s3o",
+        "description": "",
+        "cost": 61400.0,
+        "metal": 4600.0,
+        "energy": 72000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 166.0
+    },
+    "armhaapuw": {
+        "name": "Units/ARMAAPLAT.s3o",
+        "description": "",
+        "cost": 31400.0,
+        "metal": 1900.0,
+        "energy": 24000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "armhalab": {
+        "name": "Units/ARMSHLTX.s3o",
+        "description": "",
+        "cost": 61400.0,
+        "metal": 4800.0,
+        "energy": 58000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 166.0
+    },
+    "armhavp": {
+        "name": "Units/ARMHAVP.s3o",
+        "description": "",
+        "cost": 61400.0,
+        "metal": 4900.0,
+        "energy": 51000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 166.0
+    },
+    "armhp": {
+        "name": "Units/ARMHP.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 750.0,
+        "energy": 2750.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 90.0
+    },
+    "armlab": {
+        "name": "Units/ARMLAB.s3o",
+        "description": "",
+        "cost": 5000.0,
+        "metal": 500.0,
+        "energy": 950.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 84.0
+    },
+    "armsaap": {
+        "name": "Units/LEGAAP.s3o",
+        "description": "",
+        "cost": 35900.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "armsalab": {
+        "name": "Units/LEGALAB.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 140.0
+    },
+    "armsavp": {
+        "name": "Units/LEGAVP.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 140.0
+    },
+    "armshltx": {
+        "name": "Units/ARMSHLTX.s3o",
+        "description": "",
+        "cost": 61400.0,
+        "metal": 7900.0,
+        "energy": 58000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 166.0
+    },
+    "armvp": {
+        "name": "Units/ARMVP.s3o",
+        "description": "",
+        "cost": 5700.0,
+        "metal": 590.0,
+        "energy": 1550.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 92.0
+    },
+    "armarad": {
+        "name": "Units/ARMARAD.s3o",
+        "description": "",
+        "cost": 8000.0,
+        "metal": 400.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armdf": {
+        "name": "Units/ARMFUS.s3o",
+        "description": "",
+        "cost": 7500.0,
+        "metal": 370.0,
+        "energy": 100.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 59.0
+    },
+    "armdrag": {
+        "name": "Units/armdrag.s3o",
+        "description": "",
+        "cost": 255.0,
+        "metal": 8.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armeyes": {
+        "name": "Units/ARMEYES.s3o",
+        "description": "",
+        "cost": 750.0,
+        "metal": 32.0,
+        "energy": 850.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 20.0
+    },
+    "armfort": {
+        "name": "Units/ARMFORT.s3o",
+        "description": "",
+        "cost": 900.0,
+        "metal": 40.0,
+        "energy": 500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armgate": {
+        "name": "Units/ARMGATE.s3o",
+        "description": "",
+        "cost": 55000.0,
+        "metal": 3000.0,
+        "energy": 54000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 57.0
+    },
+    "armjamt": {
+        "name": "Units/ARMJAMT.s3o",
+        "description": "",
+        "cost": 9950.0,
+        "metal": 240.0,
+        "energy": 8500.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armmine1": {
+        "name": "Units/ARMMINE1.s3o",
+        "description": "",
+        "cost": 100.0,
+        "metal": 7.0,
+        "energy": 270.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "armmine2": {
+        "name": "Units/ARMMINE2.s3o",
+        "description": "",
+        "cost": 300.0,
+        "metal": 25.0,
+        "energy": 1050.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "armmine3": {
+        "name": "Units/ARMMINE3.s3o",
+        "description": "",
+        "cost": 700.0,
+        "metal": 50.0,
+        "energy": 2800.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "armnanotc": {
+        "name": "Units/ARMNANOTC.s3o",
+        "description": "",
+        "cost": 5300.0,
+        "metal": 210.0,
+        "energy": 3200.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 31.0
+    },
+    "armnanotct2": {
+        "name": "Units/ARMNANOT2.s3o",
+        "description": "",
+        "cost": 21000.0,
+        "metal": 840.0,
+        "energy": 12800.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "armrad": {
+        "name": "Units/ARMRAD.s3o",
+        "description": "",
+        "cost": 1140.0,
+        "metal": 60.0,
+        "energy": 630.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "armsd": {
+        "name": "Units/ARMSD.s3o",
+        "description": "",
+        "cost": 11900.0,
+        "metal": 710.0,
+        "energy": 7100.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 75.0
+    },
+    "armtarg": {
+        "name": "Units/ARMTARG.s3o",
+        "description": "",
+        "cost": 8700.0,
+        "metal": 810.0,
+        "energy": 7200.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 55.0
+    },
+    "armveil": {
+        "name": "Units/ARMVEIL.s3o",
+        "description": "",
+        "cost": 9100.0,
+        "metal": 125.0,
+        "energy": 19000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 38.0
+    },
+    "armanavaldefturret": {
+        "name": "Units/armanavaldefturret.s3o",
+        "description": "",
+        "cost": 26000.0,
+        "metal": 1750.0,
+        "energy": 26000.0,
+        "speed": 5.0,
+        "accel": 0.0,
+        "size_z": 80.0
+    },
+    "armatl": {
+        "name": "Units/ARMATL.s3o",
+        "description": "",
+        "cost": 9260.0,
+        "metal": 1000.0,
+        "energy": 8500.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 44.2891235352
+    },
+    "armdl": {
+        "name": "Units/ARMDL.s3o",
+        "description": "",
+        "cost": 6000.0,
+        "metal": 240.0,
+        "energy": 2200.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 44.0
+    },
+    "armfflak": {
+        "name": "Units/ARMFFLAK.s3o",
+        "description": "",
+        "cost": 21900.0,
+        "metal": 850.0,
+        "energy": 23000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 42.0
+    },
+    "armfhlt": {
+        "name": "Units/ARMFHLT.s3o",
+        "description": "",
+        "cost": 9670.0,
+        "metal": 470.0,
+        "energy": 6200.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "armfrock": {
+        "name": "Units/ARMFROCK.s3o",
+        "description": "",
+        "cost": 5810.0,
+        "metal": 360.0,
+        "energy": 5700.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "armfrt": {
+        "name": "Units/ARMFRT.s3o",
+        "description": "",
+        "cost": 2200.0,
+        "metal": 90.0,
+        "energy": 1000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "armgplat": {
+        "name": "Units/ARMGPLAT.s3o",
+        "description": "",
+        "cost": 2860.0,
+        "metal": 110.0,
+        "energy": 900.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 45.0
+    },
+    "armkraken": {
+        "name": "Units/ARMKRAKEN.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1000.0,
+        "energy": 13000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 84.0
+    },
+    "armnavaldefturret": {
+        "name": "Units/armnavaldefturret.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 750.0,
+        "energy": 10000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 70.0
+    },
+    "armtl": {
+        "name": "Units/ARMTL.s3o",
+        "description": "",
+        "cost": 3700.0,
+        "metal": 170.0,
+        "energy": 1500.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 31.9671630859
+    },
+    "armfmkr": {
+        "name": "Units/ARMFMKR.s3o",
+        "description": "",
+        "cost": 2600.0,
+        "metal": 1.0,
+        "energy": 1150.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "armtide": {
+        "name": "Units/ARMTIDE.s3o",
+        "description": "",
+        "cost": 2190.0,
+        "metal": 90.0,
+        "energy": 200.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 39.0
+    },
+    "armuwadves": {
+        "name": "Units/ARMUWADVES.s3o",
+        "description": "",
+        "cost": 20300.0,
+        "metal": 830.0,
+        "energy": 10000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 62.0
+    },
+    "armuwadvms": {
+        "name": "Units/ARMUWADVMS.s3o",
+        "description": "",
+        "cost": 20400.0,
+        "metal": 750.0,
+        "energy": 11500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 72.0
+    },
+    "armuwageo": {
+        "name": "Units/ARMUWAGEO.s3o",
+        "description": "",
+        "cost": 33300.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 107.0
+    },
+    "armuwes": {
+        "name": "Units/ARMUWES.s3o",
+        "description": "",
+        "cost": 4110.0,
+        "metal": 170.0,
+        "energy": 1700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 63.6249847412
+    },
+    "armuwfus": {
+        "name": "Units/ARMUWFUS.s3o",
+        "description": "",
+        "cost": 99900.0,
+        "metal": 5200.0,
+        "energy": 33500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 56.9153289795
+    },
+    "armuwgeo": {
+        "name": "Units/ARMUWGEO.s3o",
+        "description": "",
+        "cost": 13100.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "armuwmme": {
+        "name": "Units/ARMUWMME.s3o",
+        "description": "",
+        "cost": 14900.0,
+        "metal": 620.0,
+        "energy": 7700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 59.8421783447
+    },
+    "armuwmmm": {
+        "name": "Units/ARMUWMMM.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 380.0,
+        "energy": 21000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 72.0
+    },
+    "armuwms": {
+        "name": "Units/ARMUWMS.s3o",
+        "description": "",
+        "cost": 2920.0,
+        "metal": 330.0,
+        "energy": 570.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 75.6147460938
+    },
+    "armamsub": {
+        "name": "Units/ARMAMSUB.s3o",
+        "description": "",
+        "cost": 11100.0,
+        "metal": 1200.0,
+        "energy": 5500.0,
+        "speed": 750.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "armasy": {
+        "name": "Units/ARMASY.s3o",
+        "description": "",
+        "cost": 16000.0,
+        "metal": 3200.0,
+        "energy": 9700.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 192.0
+    },
+    "armfhp": {
+        "name": "Units/ARMFHP.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 750.0,
+        "energy": 2750.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 90.0
+    },
+    "armhasy": {
+        "name": "Units/ARMHASY.s3o",
+        "description": "",
+        "cost": 61400.0,
+        "metal": 5000.0,
+        "energy": 44000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 221.0
+    },
+    "armplat": {
+        "name": "Units/ARMPLAT.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 1450.0,
+        "energy": 5000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 117.478393555
+    },
+    "armsasy": {
+        "name": "Units/ARMASY.s3o",
+        "description": "",
+        "cost": 16000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 192.0
+    },
+    "armshltxuw": {
+        "name": "Units/ARMSHLTX.s3o",
+        "description": "",
+        "cost": 61400.0,
+        "metal": 7900.0,
+        "energy": 58000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 166.0
+    },
+    "armsy": {
+        "name": "Units/ARMSY.s3o",
+        "description": "",
+        "cost": 5160.0,
+        "metal": 450.0,
+        "energy": 950.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 90.0
+    },
+    "armason": {
+        "name": "Units/ARMASON.s3o",
+        "description": "",
+        "cost": 6150.0,
+        "metal": 170.0,
+        "energy": 2600.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 23.5352478027
+    },
+    "armfatf": {
+        "name": "Units/ARMFATF.s3o",
+        "description": "",
+        "cost": 9880.0,
+        "metal": 800.0,
+        "energy": 7300.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 52.0
+    },
+    "armfdrag": {
+        "name": "Units/ARMFDRAG.s3o",
+        "description": "",
+        "cost": 370.0,
+        "metal": 15.0,
+        "energy": 0.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "armfgate": {
+        "name": "Units/armfgate.s3o",
+        "description": "",
+        "cost": 59000.0,
+        "metal": 3900.0,
+        "energy": 72000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 53.0
+    },
+    "armfmine3": {
+        "name": "Units/ARMFMINE3.s3o",
+        "description": "",
+        "cost": 400.0,
+        "metal": 32.0,
+        "energy": 1600.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 18.0
+    },
+    "armfrad": {
+        "name": "Units/ARMFRAD.s3o",
+        "description": "",
+        "cost": 1800.0,
+        "metal": 130.0,
+        "energy": 1000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "armnanotc2plat": {
+        "name": "Units/armnanotc2plat.s3o",
+        "description": "",
+        "cost": 21000.0,
+        "metal": 840.0,
+        "energy": 12800.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "armnanotcplat": {
+        "name": "Units/ARMNANOTCPLAT.s3o",
+        "description": "",
+        "cost": 5300.0,
+        "metal": 230.0,
+        "energy": 2600.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 31.0
+    },
+    "armsonar": {
+        "name": "Units/ARMSONAR.s3o",
+        "description": "",
+        "cost": 910.0,
+        "metal": 20.0,
+        "energy": 450.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 28.0
+    },
+    "armbanth": {
+        "name": "Units/ARMBANTH.s3o",
+        "description": "",
+        "cost": 276000.0,
+        "metal": 13500.0,
+        "energy": 286000.0,
+        "speed": 45.6,
+        "accel": 106.605,
+        "size_z": 60.0
+    },
+    "armlun": {
+        "name": "Units/ARMLUN.s3o",
+        "description": "",
+        "cost": 32000.0,
+        "metal": 1150.0,
+        "energy": 23000.0,
+        "speed": 50.1,
+        "accel": 16.092,
+        "size_z": 6.0
+    },
+    "armmar": {
+        "name": "Units/ARMMAR.s3o",
+        "description": "",
+        "cost": 26100.0,
+        "metal": 970.0,
+        "energy": 21000.0,
+        "speed": 94.5,
+        "accel": 227.7,
+        "size_z": 50.0
+    },
+    "armprowl": {
+        "name": "Units/armprowl.s3o",
+        "description": "",
+        "cost": 26100.0,
+        "metal": 970.0,
+        "energy": 21000.0,
+        "speed": 94.5,
+        "accel": 227.7,
+        "size_z": 38.0
+    },
+    "armraz": {
+        "name": "Units/ARMRAZ.s3o",
+        "description": "",
+        "cost": 88600.0,
+        "metal": 3800.0,
+        "energy": 68000.0,
+        "speed": 69.0,
+        "accel": 213.21,
+        "size_z": 55.0
+    },
+    "armthor": {
+        "name": "Units/ARMTHOR.s3o",
+        "description": "",
+        "cost": 250000.0,
+        "metal": 9000.0,
+        "energy": 240000.0,
+        "speed": 54.0,
+        "accel": 13.5,
+        "size_z": 58.0
+    },
+    "armvang": {
+        "name": "Units/ARMVANG.s3o",
+        "description": "",
+        "cost": 91000.0,
+        "metal": 3300.0,
+        "energy": 71000.0,
+        "speed": 33.0,
+        "accel": 23.805,
+        "size_z": 65.0
+    },
+    "armah": {
+        "name": "Units/ARMAH.s3o",
+        "description": "",
+        "cost": 3560.0,
+        "metal": 230.0,
+        "energy": 4500.0,
+        "speed": 88.5,
+        "accel": 59.26500000000001,
+        "size_z": 34.0
+    },
+    "armanac": {
+        "name": "Units/ARMANAC.s3o",
+        "description": "",
+        "cost": 3000.0,
+        "metal": 270.0,
+        "energy": 2400.0,
+        "speed": 69.99,
+        "accel": 47.997,
+        "size_z": 40.0
+    },
+    "armch": {
+        "name": "Units/ARMCH.s3o",
+        "description": "",
+        "cost": 4470.0,
+        "metal": 200.0,
+        "energy": 2700.0,
+        "speed": 66.9,
+        "accel": 38.862,
+        "size_z": 31.0
+    },
+    "armmh": {
+        "name": "Units/ARMMH.s3o",
+        "description": "",
+        "cost": 3300.0,
+        "metal": 175.0,
+        "energy": 3000.0,
+        "speed": 63.9,
+        "accel": 41.049,
+        "size_z": 43.0
+    },
+    "armsh": {
+        "name": "Units/ARMSH.s3o",
+        "description": "",
+        "cost": 1700.0,
+        "metal": 85.0,
+        "energy": 1250.0,
+        "speed": 113.7,
+        "accel": 99.45,
+        "size_z": 24.0
+    },
+    "armcsa": {
+        "name": "Units/ARMCSA.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 150.0,
+        "energy": 7800.0,
+        "speed": 192.0,
+        "accel": 63.00000000000001,
+        "size_z": 32.0
+    },
+    "armhaca": {
+        "name": "Units/ARMACA.s3o",
+        "description": "",
+        "cost": 48000.0,
+        "metal": 1000.0,
+        "energy": 31200.0,
+        "speed": 192.0,
+        "accel": 63.00000000000001,
+        "size_z": 32.0
+    },
+    "armsaber": {
+        "name": "Units/ARMSABER.s3o",
+        "description": "",
+        "cost": 9000.0,
+        "metal": 210.0,
+        "energy": 6400.0,
+        "speed": 156.89999,
+        "accel": 216.0,
+        "size_z": 48.0
+    },
+    "armsb": {
+        "name": "Units/ARMSB.s3o",
+        "description": "",
+        "cost": 8000.0,
+        "metal": 240.0,
+        "energy": 7500.0,
+        "speed": 267.29999,
+        "accel": 54.0,
+        "size_z": 48.0
+    },
+    "armseap": {
+        "name": "Units/ARMSEAP.s3o",
+        "description": "",
+        "cost": 14800.0,
+        "metal": 290.0,
+        "energy": 6500.0,
+        "speed": 271.20001,
+        "accel": 180.0,
+        "size_z": 48.0
+    },
+    "armsehak": {
+        "name": "Units/ARMSEHAK.s3o",
+        "description": "",
+        "cost": 9050.0,
+        "metal": 125.0,
+        "energy": 7000.0,
+        "speed": 338.10001,
+        "accel": 119.25,
+        "size_z": 48.0
+    },
+    "armsfig": {
+        "name": "Units/ARMSFIG.s3o",
+        "description": "",
+        "cost": 5500.0,
+        "metal": 90.0,
+        "energy": 4500.0,
+        "speed": 310.79999,
+        "accel": 186.75,
+        "size_z": 32.0
+    },
+    "armsfig2": {
+        "name": "Units/ARMSFIG2.s3o",
+        "description": "",
+        "cost": 5500.0,
+        "metal": 90.0,
+        "energy": 4500.0,
+        "speed": 310.79999,
+        "accel": 186.75,
+        "size_z": 32.0
+    },
+    "armcs": {
+        "name": "Units/ARMCS.s3o",
+        "description": "",
+        "cost": 3460.0,
+        "metal": 200.0,
+        "energy": 2000.0,
+        "speed": 65.4,
+        "accel": 36.198,
+        "size_z": 50.0
+    },
+    "armdecade": {
+        "name": "Units/ARMDECADE.s3o",
+        "description": "",
+        "cost": 2450.0,
+        "metal": 175.0,
+        "energy": 1500.0,
+        "speed": 104.7,
+        "accel": 90.36,
+        "size_z": 62.0
+    },
+    "armpship": {
+        "name": "Units/ARMPSHIP.s3o",
+        "description": "",
+        "cost": 4250.0,
+        "metal": 380.0,
+        "energy": 2550.0,
+        "speed": 81.0,
+        "accel": 42.939,
+        "size_z": 76.0
+    },
+    "armpt": {
+        "name": "Units/ARMPT.s3o",
+        "description": "",
+        "cost": 2700.0,
+        "metal": 150.0,
+        "energy": 1000.0,
+        "speed": 93.0,
+        "accel": 63.099000000000004,
+        "size_z": 48.0
+    },
+    "armrecl": {
+        "name": "Units/ARMRECL.s3o",
+        "description": "",
+        "cost": 6200.0,
+        "metal": 210.0,
+        "energy": 3000.0,
+        "speed": 100.0,
+        "accel": 47.358,
+        "size_z": 65.0
+    },
+    "armroy": {
+        "name": "Units/ARMROY.s3o",
+        "description": "",
+        "cost": 10200.0,
+        "metal": 880.0,
+        "energy": 6600.0,
+        "speed": 67.2,
+        "accel": 27.549,
+        "size_z": 83.0
+    },
+    "armsub": {
+        "name": "Units/ARMSUB.s3o",
+        "description": "",
+        "cost": 5800.0,
+        "metal": 440.0,
+        "energy": 3100.0,
+        "speed": 66.0,
+        "accel": 41.328,
+        "size_z": 43.0
+    },
+    "armtorps": {
+        "name": "Units/ARMMLS.s3o",
+        "description": "",
+        "cost": 2350.0,
+        "metal": 300.0,
+        "energy": 3000.0,
+        "speed": 90.0,
+        "accel": 63.00000000000001,
+        "size_z": 62.0
+    },
+    "armaas": {
+        "name": "Units/ARMAAS.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 1000.0,
+        "energy": 12000.0,
+        "speed": 63.0,
+        "accel": 34.875,
+        "size_z": 74.0
+    },
+    "armacsub": {
+        "name": "Units/ARMACSUB.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 700.0,
+        "energy": 9000.0,
+        "speed": 72.0,
+        "accel": 39.852,
+        "size_z": 63.0
+    },
+    "armantiship": {
+        "name": "Units/ARMANTISHIP.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1400.0,
+        "energy": 12000.0,
+        "speed": 63.0,
+        "accel": 15.498,
+        "size_z": 140.0
+    },
+    "armbats": {
+        "name": "Units/ARMBATS.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3300.0,
+        "energy": 22000.0,
+        "speed": 57.9,
+        "accel": 14.247,
+        "size_z": 144.0
+    },
+    "armcarry": {
+        "name": "Units/ARMCARRY.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1400.0,
+        "energy": 12000.0,
+        "speed": 63.0,
+        "accel": 15.498,
+        "size_z": 159.0
+    },
+    "armcrus": {
+        "name": "Units/ARMCRUS.s3o",
+        "description": "",
+        "cost": 17000.0,
+        "metal": 1000.0,
+        "energy": 12000.0,
+        "speed": 60.0,
+        "accel": 26.568,
+        "size_z": 112.0
+    },
+    "armdronecarry": {
+        "name": "Units/ARMDRONECARRY.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1300.0,
+        "energy": 13000.0,
+        "speed": 63.0,
+        "accel": 15.498,
+        "size_z": 140.0
+    },
+    "armepoch": {
+        "name": "Units/ARMEPOCH.s3o",
+        "description": "",
+        "cost": 200000.0,
+        "metal": 20000.0,
+        "energy": 190000.0,
+        "speed": 53.85,
+        "accel": 9.936,
+        "size_z": 180.0
+    },
+    "armexcalibur": {
+        "name": "Units/armexcalibur.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 60.0,
+        "accel": 27.0,
+        "size_z": 52.0
+    },
+    "armhacs": {
+        "name": "Units/ARMMLS.s3o",
+        "description": "",
+        "cost": 49440.0,
+        "metal": 1140.0,
+        "energy": 25600.0,
+        "speed": 66.0,
+        "accel": 36.531,
+        "size_z": 70.0
+    },
+    "armlship": {
+        "name": "Units/ARMLSHIP.s3o",
+        "description": "",
+        "cost": 11400.0,
+        "metal": 570.0,
+        "energy": 11400.0,
+        "speed": 99.0,
+        "accel": 58.5,
+        "size_z": 82.0
+    },
+    "armmls": {
+        "name": "Units/ARMMLS.s3o",
+        "description": "",
+        "cost": 4720.0,
+        "metal": 190.0,
+        "energy": 3200.0,
+        "speed": 66.0,
+        "accel": 36.531,
+        "size_z": 70.0
+    },
+    "armmship": {
+        "name": "Units/ARMMSHIP.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 2000.0,
+        "energy": 10000.0,
+        "speed": 63.0,
+        "accel": 25.83,
+        "size_z": 80.0
+    },
+    "armsacsub": {
+        "name": "Units/ARMACSUB.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 500.0,
+        "energy": 9000.0,
+        "speed": 72.0,
+        "accel": 39.852,
+        "size_z": 63.0
+    },
+    "armseadragon": {
+        "name": "Units/armseadragon.s3o",
+        "description": "",
+        "cost": 140000.0,
+        "metal": 8000.0,
+        "energy": 85000.0,
+        "speed": 48.0,
+        "accel": 27.0,
+        "size_z": 110.0
+    },
+    "armserp": {
+        "name": "Units/ARMSERP.s3o",
+        "description": "",
+        "cost": 22770.0,
+        "metal": 1800.0,
+        "energy": 27000.0,
+        "speed": 45.0,
+        "accel": 18.0,
+        "size_z": 57.0
+    },
+    "armsjam": {
+        "name": "Units/ARMSJAM.s3o",
+        "description": "",
+        "cost": 17000.0,
+        "metal": 310.0,
+        "energy": 5000.0,
+        "speed": 45.0,
+        "accel": 36.531,
+        "size_z": 64.0
+    },
+    "armsubk": {
+        "name": "Units/ARMSUBK.s3o",
+        "description": "",
+        "cost": 22000.0,
+        "metal": 950.0,
+        "energy": 17000.0,
+        "speed": 81.0,
+        "accel": 45.0,
+        "size_z": 64.0
+    },
+    "armtdrone": {
+        "name": "Units/ARMDRONE.s3o",
+        "description": "",
+        "cost": 1500.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 16.0
+    },
+    "armtrident": {
+        "name": "Units/armtrident.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 5.0,
+        "accel": 0.0,
+        "size_z": 84.0
+    },
+    "armart": {
+        "name": "Units/armart.s3o",
+        "description": "",
+        "cost": 3000.0,
+        "metal": 135.0,
+        "energy": 2200.0,
+        "speed": 54.0,
+        "accel": 24.543,
+        "size_z": 35.0
+    },
+    "armbeaver": {
+        "name": "Units/ARMBEAVER.s3o",
+        "description": "",
+        "cost": 6700.0,
+        "metal": 150.0,
+        "energy": 3100.0,
+        "speed": 42.0,
+        "accel": 16.578,
+        "size_z": 41.0
+    },
+    "armcv": {
+        "name": "Units/ARMCV.s3o",
+        "description": "",
+        "cost": 4050.0,
+        "metal": 135.0,
+        "energy": 1950.0,
+        "speed": 54.0,
+        "accel": 29.961,
+        "size_z": 50.0
+    },
+    "armfav": {
+        "name": "Units/ARMFAV.s3o",
+        "description": "",
+        "cost": 950.0,
+        "metal": 31.0,
+        "energy": 370.0,
+        "speed": 168.0,
+        "accel": 149.93099999999998,
+        "size_z": 26.0
+    },
+    "armflash": {
+        "name": "Units/ARMFLASH.s3o",
+        "description": "",
+        "cost": 1960.0,
+        "metal": 110.0,
+        "energy": 900.0,
+        "speed": 101.0,
+        "accel": 61.092,
+        "size_z": 31.0
+    },
+    "armjanus": {
+        "name": "Units/ARMJANUS.s3o",
+        "description": "",
+        "cost": 3550.0,
+        "metal": 240.0,
+        "energy": 2600.0,
+        "speed": 54.0,
+        "accel": 18.999,
+        "size_z": 33.0
+    },
+    "armmlv": {
+        "name": "Units/ARMMLV.s3o",
+        "description": "",
+        "cost": 3520.0,
+        "metal": 57.0,
+        "energy": 1100.0,
+        "speed": 75.0,
+        "accel": 64.215,
+        "size_z": 35.0
+    },
+    "armpincer": {
+        "name": "Units/ARMPINCER.s3o",
+        "description": "",
+        "cost": 2610.0,
+        "metal": 200.0,
+        "energy": 2000.0,
+        "speed": 63.0,
+        "accel": 32.148,
+        "size_z": 31.0
+    },
+    "armsam": {
+        "name": "Units/ARMSAM.s3o",
+        "description": "",
+        "cost": 3420.0,
+        "metal": 150.0,
+        "energy": 2100.0,
+        "speed": 55.0,
+        "accel": 21.24,
+        "size_z": 41.0
+    },
+    "armstump": {
+        "name": "Units/ARMSTUMP.s3o",
+        "description": "",
+        "cost": 2900.0,
+        "metal": 225.0,
+        "energy": 2000.0,
+        "speed": 75.9,
+        "accel": 39.42,
+        "size_z": 40.0
+    },
+    "armacv": {
+        "name": "Units/ARMACV.s3o",
+        "description": "",
+        "cost": 12400.0,
+        "metal": 550.0,
+        "energy": 6800.0,
+        "speed": 52.5,
+        "accel": 26.667,
+        "size_z": 42.0
+    },
+    "armbull": {
+        "name": "Units/ARMBULL.s3o",
+        "description": "",
+        "cost": 17200.0,
+        "metal": 950.0,
+        "energy": 13000.0,
+        "speed": 60.0,
+        "accel": 31.878,
+        "size_z": 52.0
+    },
+    "armconsul": {
+        "name": "Units/ARMCONSUL.s3o",
+        "description": "",
+        "cost": 6800.0,
+        "metal": 250.0,
+        "energy": 4300.0,
+        "speed": 78.0,
+        "accel": 63.261,
+        "size_z": 30.0
+    },
+    "armcroc": {
+        "name": "Units/ARMCROC.s3o",
+        "description": "",
+        "cost": 16000.0,
+        "metal": 750.0,
+        "energy": 15000.0,
+        "speed": 54.0,
+        "accel": 29.268,
+        "size_z": 56.0
+    },
+    "armgremlin": {
+        "name": "Units/ARMGREMLIN.s3o",
+        "description": "",
+        "cost": 6700.0,
+        "metal": 230.0,
+        "energy": 3700.0,
+        "speed": 70.5,
+        "accel": 62.73,
+        "size_z": 39.0
+    },
+    "armhacv": {
+        "name": "Units/ARMCONSUL.s3o",
+        "description": "",
+        "cost": 33600.0,
+        "metal": 1300.0,
+        "energy": 18800.0,
+        "speed": 85.0,
+        "accel": 63.261,
+        "size_z": 30.0
+    },
+    "armjam": {
+        "name": "Units/ARMJAM.s3o",
+        "description": "",
+        "cost": 5930.0,
+        "metal": 105.0,
+        "energy": 1700.0,
+        "speed": 33.0,
+        "accel": 21.744,
+        "size_z": 33.0
+    },
+    "armlatnk": {
+        "name": "Units/ARMLATNK.s3o",
+        "description": "",
+        "cost": 6030.0,
+        "metal": 330.0,
+        "energy": 6400.0,
+        "speed": 90.0,
+        "accel": 52.497,
+        "size_z": 34.0
+    },
+    "armmanni": {
+        "name": "Units/ARMMANNI.s3o",
+        "description": "",
+        "cost": 25700.0,
+        "metal": 1200.0,
+        "energy": 18500.0,
+        "speed": 42.0,
+        "accel": 6.4350000000000005,
+        "size_z": 39.0
+    },
+    "armmart": {
+        "name": "Units/ARMMART.s3o",
+        "description": "",
+        "cost": 6500.0,
+        "metal": 320.0,
+        "energy": 4900.0,
+        "speed": 60.0,
+        "accel": 29.700000000000003,
+        "size_z": 38.0
+    },
+    "armmerl": {
+        "name": "Units/ARMMERL.s3o",
+        "description": "",
+        "cost": 15500.0,
+        "metal": 920.0,
+        "energy": 6500.0,
+        "speed": 33.0,
+        "accel": 22.401,
+        "size_z": 54.0
+    },
+    "armsacv": {
+        "name": "Units/LEGACV.s3o",
+        "description": "",
+        "cost": 12400.0,
+        "metal": 450.0,
+        "energy": 6800.0,
+        "speed": 52.5,
+        "accel": 26.667,
+        "size_z": 42.0
+    },
+    "armseer": {
+        "name": "Units/ARMSEER.s3o",
+        "description": "",
+        "cost": 6200.0,
+        "metal": 125.0,
+        "energy": 2000.0,
+        "speed": 57.0,
+        "accel": 43.901999999999994,
+        "size_z": 34.0
+    },
+    "armyork": {
+        "name": "Units/ARMYORK.s3o",
+        "description": "",
+        "cost": 9950.0,
+        "metal": 450.0,
+        "energy": 9100.0,
+        "speed": 70.5,
+        "accel": 54.998999999999995,
+        "size_z": 38.0
+    },
+    "corbw": {
+        "name": "Units/CORBW.s3o",
+        "description": "",
+        "cost": 2070.0,
+        "metal": 58.0,
+        "energy": 1300.0,
+        "speed": 280.5,
+        "accel": 225.0,
+        "size_z": 32.0
+    },
+    "corca": {
+        "name": "Units/CORCA.s3o",
+        "description": "",
+        "cost": 8360.0,
+        "metal": 115.0,
+        "energy": 3200.0,
+        "speed": 201.0,
+        "accel": 54.0,
+        "size_z": 48.0
+    },
+    "cordrone": {
+        "name": "Units/CORDRONE.s3o",
+        "description": "",
+        "cost": 1500.0,
+        "metal": 30.0,
+        "energy": 750.0,
+        "speed": 315.0,
+        "accel": 180.0,
+        "size_z": 16.0
+    },
+    "cordroneold": {
+        "name": "Units/CORDRONEOLD.s3o",
+        "description": "",
+        "cost": 1040.0,
+        "metal": 29.0,
+        "energy": 650.0,
+        "speed": 280.5,
+        "accel": 225.0,
+        "size_z": 16.0
+    },
+    "corfink": {
+        "name": "Units/CORFINK.s3o",
+        "description": "",
+        "cost": 2400.0,
+        "metal": 51.0,
+        "energy": 1450.0,
+        "speed": 360.0,
+        "accel": 164.25,
+        "size_z": 32.0
+    },
+    "corhvytrans": {
+        "name": "Units/corhvytrans.s3o",
+        "description": "",
+        "cost": 8500.0,
+        "metal": 190.0,
+        "energy": 4000.0,
+        "speed": 100.0,
+        "accel": 81.0,
+        "size_z": 32.0
+    },
+    "corshad": {
+        "name": "Units/CORSHAD.s3o",
+        "description": "",
+        "cost": 5050.0,
+        "metal": 150.0,
+        "energy": 4600.0,
+        "speed": 234.0,
+        "accel": 51.75,
+        "size_z": 48.0
+    },
+    "corvalk": {
+        "name": "Units/CORVALK.s3o",
+        "description": "",
+        "cost": 4120.0,
+        "metal": 74.0,
+        "energy": 1450.0,
+        "speed": 198.0,
+        "accel": 81.0,
+        "size_z": 32.0
+    },
+    "corveng": {
+        "name": "Units/CORVENG.s3o",
+        "description": "",
+        "cost": 3330.0,
+        "metal": 73.0,
+        "energy": 2800.0,
+        "speed": 297.60001,
+        "accel": 164.25,
+        "size_z": 32.0
+    },
+    "coraca": {
+        "name": "Units/CORACA.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 360.0,
+        "energy": 11000.0,
+        "speed": 181.5,
+        "accel": 58.5,
+        "size_z": 32.0
+    },
+    "corape": {
+        "name": "Units/CORAPE.s3o",
+        "description": "",
+        "cost": 14500.0,
+        "metal": 370.0,
+        "energy": 6800.0,
+        "speed": 159.0,
+        "accel": 180.0,
+        "size_z": 48.0
+    },
+    "corawac": {
+        "name": "Units/CORAWAC.s3o",
+        "description": "",
+        "cost": 13300.0,
+        "metal": 180.0,
+        "energy": 8300.0,
+        "speed": 321.0,
+        "accel": 141.75,
+        "size_z": 48.0
+    },
+    "corcrwh": {
+        "name": "Units/CORCRWH.s3o",
+        "description": "",
+        "cost": 84200.0,
+        "metal": 5100.0,
+        "energy": 72000.0,
+        "speed": 114.9,
+        "accel": 135.0,
+        "size_z": 80.0
+    },
+    "corhurc": {
+        "name": "Units/CORHURC.s3o",
+        "description": "",
+        "cost": 31000.0,
+        "metal": 310.0,
+        "energy": 18500.0,
+        "speed": 248.399,
+        "accel": 47.25,
+        "size_z": 64.0
+    },
+    "corseah": {
+        "name": "Units/CORSEAH.s3o",
+        "description": "",
+        "cost": 10000.0,
+        "metal": 370.0,
+        "energy": 6400.0,
+        "speed": 200.0,
+        "accel": 135.0,
+        "size_z": 52.0
+    },
+    "cortitan": {
+        "name": "Units/CORTITAN.s3o",
+        "description": "",
+        "cost": 14700.0,
+        "metal": 410.0,
+        "energy": 8200.0,
+        "speed": 279.0,
+        "accel": 119.25,
+        "size_z": 64.0
+    },
+    "corvamp": {
+        "name": "Units/CORVAMP.s3o",
+        "description": "",
+        "cost": 8400.0,
+        "metal": 135.0,
+        "energy": 4750.0,
+        "speed": 379.5,
+        "accel": 186.75,
+        "size_z": 32.0
+    },
+    "corak": {
+        "name": "Units/CORAK.s3o",
+        "description": "",
+        "cost": 1250.0,
+        "metal": 42.0,
+        "energy": 820.0,
+        "speed": 81.0,
+        "accel": 360.0,
+        "size_z": 24.0
+    },
+    "corck": {
+        "name": "Units/CORCK.s3o",
+        "description": "",
+        "cost": 3550.0,
+        "metal": 120.0,
+        "energy": 1750.0,
+        "speed": 34.5,
+        "accel": 471.96,
+        "size_z": 25.0
+    },
+    "corcrash": {
+        "name": "Units/CORCRASH.s3o",
+        "description": "",
+        "cost": 1900.0,
+        "metal": 125.0,
+        "energy": 1100.0,
+        "speed": 53.49,
+        "accel": 124.20000000000002,
+        "size_z": 30.0
+    },
+    "cornecro": {
+        "name": "Units/CORNECRO.s3o",
+        "description": "",
+        "cost": 2800.0,
+        "metal": 130.0,
+        "energy": 1400.0,
+        "speed": 78.0,
+        "accel": 207.0,
+        "size_z": 28.0
+    },
+    "corstorm": {
+        "name": "Units/CORSTORM.s3o",
+        "description": "",
+        "cost": 1950.0,
+        "metal": 110.0,
+        "energy": 1150.0,
+        "speed": 47.7,
+        "accel": 111.78,
+        "size_z": 22.0
+    },
+    "corthud": {
+        "name": "Units/CORTHUD.s3o",
+        "description": "",
+        "cost": 2100.0,
+        "metal": 140.0,
+        "energy": 1150.0,
+        "speed": 45.0,
+        "accel": 116.95500000000001,
+        "size_z": 29.0
+    },
+    "coraak": {
+        "name": "Units/CORAAK.s3o",
+        "description": "",
+        "cost": 7600.0,
+        "metal": 650.0,
+        "energy": 6200.0,
+        "speed": 34.5,
+        "accel": 124.20000000000002,
+        "size_z": 22.0
+    },
+    "corack": {
+        "name": "Units/CORACK.s3o",
+        "description": "",
+        "cost": 9700.0,
+        "metal": 470.0,
+        "energy": 6900.0,
+        "speed": 33.0,
+        "accel": 422.28000000000003,
+        "size_z": 30.0
+    },
+    "coramph": {
+        "name": "Units/CORAMPH.s3o",
+        "description": "",
+        "cost": 9650.0,
+        "metal": 330.0,
+        "energy": 9500.0,
+        "speed": 55.5,
+        "accel": 93.14999999999999,
+        "size_z": 32.0
+    },
+    "corcan": {
+        "name": "Units/CORCAN.s3o",
+        "description": "",
+        "cost": 11700.0,
+        "metal": 560.0,
+        "energy": 9300.0,
+        "speed": 37.5,
+        "accel": 124.20000000000002,
+        "size_z": 30.0
+    },
+    "cordecom": {
+        "name": "Units/CORCOM.s3o",
+        "description": "",
+        "cost": 27000.0,
+        "metal": 750.0,
+        "energy": 13000.0,
+        "speed": 900.0,
+        "accel": 162.0,
+        "size_z": 28.0
+    },
+    "corfast": {
+        "name": "Units/CORFAST.s3o",
+        "description": "",
+        "cost": 6500.0,
+        "metal": 210.0,
+        "energy": 3800.0,
+        "speed": 90.0,
+        "accel": 207.0,
+        "size_z": 19.0
+    },
+    "corhack": {
+        "name": "Units/CORFAST.s3o",
+        "description": "",
+        "cost": 33000.0,
+        "metal": 1260.0,
+        "energy": 22800.0,
+        "speed": 85.0,
+        "accel": 207.0,
+        "size_z": 19.0
+    },
+    "corhrk": {
+        "name": "Units/CORHRK.s3o",
+        "description": "",
+        "cost": 6600.0,
+        "metal": 600.0,
+        "energy": 5800.0,
+        "speed": 54.0,
+        "accel": 113.85,
+        "size_z": 33.0
+    },
+    "cormando": {
+        "name": "Units/CORMANDO.s3o",
+        "description": "",
+        "cost": 17100.0,
+        "metal": 1200.0,
+        "energy": 15500.0,
+        "speed": 75.0,
+        "accel": 362.25,
+        "size_z": 22.0
+    },
+    "cormort": {
+        "name": "Units/CORMORT.s3o",
+        "description": "",
+        "cost": 5140.0,
+        "metal": 410.0,
+        "energy": 2200.0,
+        "speed": 50.4,
+        "accel": 136.62,
+        "size_z": 28.0
+    },
+    "corpyro": {
+        "name": "Units/CORPYRO.s3o",
+        "description": "",
+        "cost": 5030.0,
+        "metal": 200.0,
+        "energy": 3000.0,
+        "speed": 82.5,
+        "accel": 465.74999999999994,
+        "size_z": 28.0
+    },
+    "corroach": {
+        "name": "Units/CORROACH.s3o",
+        "description": "",
+        "cost": 7900.0,
+        "metal": 69.0,
+        "energy": 5800.0,
+        "speed": 76.0,
+        "accel": 124.20000000000002,
+        "size_z": 20.0
+    },
+    "corsack": {
+        "name": "Units/LEGACK.s3o",
+        "description": "",
+        "cost": 9700.0,
+        "metal": 400.0,
+        "energy": 6900.0,
+        "speed": 33.0,
+        "accel": 422.28000000000003,
+        "size_z": 30.0
+    },
+    "corsktl": {
+        "name": "Units/CORSKTL.s3o",
+        "description": "",
+        "cost": 17000.0,
+        "metal": 755.0,
+        "energy": 27000.0,
+        "speed": 84.0,
+        "accel": 124.20000000000002,
+        "size_z": 22.0
+    },
+    "corspec": {
+        "name": "Units/CORSPEC.s3o",
+        "description": "",
+        "cost": 5440.0,
+        "metal": 75.0,
+        "energy": 1550.0,
+        "speed": 39.0,
+        "accel": 103.5,
+        "size_z": 29.0
+    },
+    "corspy": {
+        "name": "Units/CORSPY.s3o",
+        "description": "",
+        "cost": 22200.0,
+        "metal": 165.0,
+        "energy": 12500.0,
+        "speed": 62.099,
+        "accel": 248.40000000000003,
+        "size_z": 20.0
+    },
+    "corsumo": {
+        "name": "Units/CORSUMO.s3o",
+        "description": "",
+        "cost": 51000.0,
+        "metal": 2200.0,
+        "energy": 35000.0,
+        "speed": 22.5,
+        "accel": 49.68,
+        "size_z": 36.0
+    },
+    "cortermite": {
+        "name": "Units/CORTERMITE.s3o",
+        "description": "",
+        "cost": 13500.0,
+        "metal": 540.0,
+        "energy": 8100.0,
+        "speed": 50.0,
+        "accel": 176.98499999999999,
+        "size_z": 48.0
+    },
+    "corvoyr": {
+        "name": "Units/CORVOYR.s3o",
+        "description": "",
+        "cost": 3950.0,
+        "metal": 99.0,
+        "energy": 1350.0,
+        "speed": 45.0,
+        "accel": 50.714999999999996,
+        "size_z": 26.0
+    },
+    "corbhmth": {
+        "name": "Units/CORBHMTH.s3o",
+        "description": "",
+        "cost": 59600.0,
+        "metal": 3100.0,
+        "energy": 35000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 80.0
+    },
+    "corbuzz": {
+        "name": "Units/CORBUZZ.s3o",
+        "description": "",
+        "cost": 1400000.0,
+        "metal": 68000.0,
+        "energy": 800000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 80.0
+    },
+    "cordoom": {
+        "name": "Units/CORDOOM.s3o",
+        "description": "",
+        "cost": 55200.0,
+        "metal": 3000.0,
+        "energy": 37000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "corerad": {
+        "name": "Units/CORERAD.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 800.0,
+        "energy": 7900.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.325302124
+    },
+    "corexp": {
+        "name": "Units/COREXP.s3o",
+        "description": "",
+        "cost": 2900.0,
+        "metal": 240.0,
+        "energy": 1900.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 40.0
+    },
+    "corflak": {
+        "name": "Units/CORFLAK.s3o",
+        "description": "",
+        "cost": 20100.0,
+        "metal": 850.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 28.0
+    },
+    "corfmd": {
+        "name": "Units/CORFMD.s3o",
+        "description": "",
+        "cost": 60000.0,
+        "metal": 1500.0,
+        "energy": 40000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "corhllt": {
+        "name": "Units/CORHLLT.s3o",
+        "description": "",
+        "cost": 4900.0,
+        "metal": 195.0,
+        "energy": 1750.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "corhlt": {
+        "name": "Units/CORHLT.s3o",
+        "description": "",
+        "cost": 11400.0,
+        "metal": 480.0,
+        "energy": 4700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 38.0
+    },
+    "corint": {
+        "name": "Units/CORINT.s3o",
+        "description": "",
+        "cost": 93300.0,
+        "metal": 4600.0,
+        "energy": 67000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 72.0
+    },
+    "corjuno": {
+        "name": "Units/CORJUNO.s3o",
+        "description": "",
+        "cost": 27700.0,
+        "metal": 660.0,
+        "energy": 16000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 50.0
+    },
+    "corllt": {
+        "name": "Units/CORLLT.s3o",
+        "description": "",
+        "cost": 2500.0,
+        "metal": 90.0,
+        "energy": 700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "cormadsam": {
+        "name": "Units/CORMADSAM.s3o",
+        "description": "",
+        "cost": 5240.0,
+        "metal": 315.0,
+        "energy": 6100.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 45.0
+    },
+    "cormaw": {
+        "name": "Units/CORMAW.s3o",
+        "description": "",
+        "cost": 4420.0,
+        "metal": 290.0,
+        "energy": 1550.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.6287231445
+    },
+    "cormexp": {
+        "name": "Units/CORMEXP.s3o",
+        "description": "",
+        "cost": 32500.0,
+        "metal": 2400.0,
+        "energy": 12000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 75.0
+    },
+    "corpun": {
+        "name": "Units/CORPUN.s3o",
+        "description": "",
+        "cost": 17400.0,
+        "metal": 1300.0,
+        "energy": 13500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 52.0
+    },
+    "corrl": {
+        "name": "Units/CORRL.s3o",
+        "description": "",
+        "cost": 1750.0,
+        "metal": 80.0,
+        "energy": 850.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "corscreamer": {
+        "name": "Units/CORSCREAMER.s3o",
+        "description": "",
+        "cost": 28000.0,
+        "metal": 1650.0,
+        "energy": 32000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 63.0
+    },
+    "corsilo": {
+        "name": "Units/CORSILO.s3o",
+        "description": "",
+        "cost": 181000.0,
+        "metal": 7700.0,
+        "energy": 82000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 84.0
+    },
+    "cortoast": {
+        "name": "Units/CORTOAST.s3o",
+        "description": "",
+        "cost": 25700.0,
+        "metal": 2500.0,
+        "energy": 17000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "cortron": {
+        "name": "Units/CORTRON.s3o",
+        "description": "",
+        "cost": 59000.0,
+        "metal": 1200.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 59.0
+    },
+    "corvipe": {
+        "name": "Units/CORVIPE.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 730.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 38.8498077393
+    },
+    "coradvsol": {
+        "name": "Units/CORADVSOL.s3o",
+        "description": "",
+        "cost": 8150.0,
+        "metal": 370.0,
+        "energy": 4000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 57.0
+    },
+    "corafus": {
+        "name": "Units/CORAFUS.s3o",
+        "description": "",
+        "cost": 329200.0,
+        "metal": 9700.0,
+        "energy": 48000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 84.0
+    },
+    "corageo": {
+        "name": "Units/CORAGEO.s3o",
+        "description": "",
+        "cost": 32000.0,
+        "metal": 1500.0,
+        "energy": 27000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "corestor": {
+        "name": "Units/CORESTOR.s3o",
+        "description": "",
+        "cost": 4260.0,
+        "metal": 175.0,
+        "energy": 1800.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "corfus": {
+        "name": "Units/CORFUS.s3o",
+        "description": "",
+        "cost": 75400.0,
+        "metal": 4500.0,
+        "energy": 26000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 95.7222900391
+    },
+    "corgeo": {
+        "name": "Units/CORGEO.s3o",
+        "description": "",
+        "cost": 12900.0,
+        "metal": 540.0,
+        "energy": 13000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 63.0
+    },
+    "cormakr": {
+        "name": "Units/CORMAKR.s3o",
+        "description": "",
+        "cost": 2680.0,
+        "metal": 1.0,
+        "energy": 1250.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "cormex": {
+        "name": "Units/CORMEX.s3o",
+        "description": "",
+        "cost": 1870.0,
+        "metal": 50.0,
+        "energy": 500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "cormmkr": {
+        "name": "Units/CORMMKR.s3o",
+        "description": "",
+        "cost": 31300.0,
+        "metal": 370.0,
+        "energy": 21000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.5937194824
+    },
+    "cormoho": {
+        "name": "Units/CORMOHO.s3o",
+        "description": "",
+        "cost": 14100.0,
+        "metal": 640.0,
+        "energy": 8100.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 79.0
+    },
+    "cormstor": {
+        "name": "Units/CORMSTOR.s3o",
+        "description": "",
+        "cost": 2920.0,
+        "metal": 340.0,
+        "energy": 590.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 64.0
+    },
+    "corsolar": {
+        "name": "Units/CORSOLAR.s3o",
+        "description": "",
+        "cost": 2800.0,
+        "metal": 150.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 77.0
+    },
+    "corwin": {
+        "name": "Units/CORWIN.s3o",
+        "description": "",
+        "cost": 1680.0,
+        "metal": 43.0,
+        "energy": 175.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 34.0
+    },
+    "coraap": {
+        "name": "Units/CORAAP.s3o",
+        "description": "",
+        "cost": 20700.0,
+        "metal": 3200.0,
+        "energy": 28000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 142.0
+    },
+    "coralab": {
+        "name": "Units/CORALAB.s3o",
+        "description": "",
+        "cost": 16800.0,
+        "metal": 2900.0,
+        "energy": 16000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "corap": {
+        "name": "Units/CORAP.s3o",
+        "description": "",
+        "cost": 5680.0,
+        "metal": 690.0,
+        "energy": 1100.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "coravp": {
+        "name": "Units/CORAVP.s3o",
+        "description": "",
+        "cost": 18500.0,
+        "metal": 2800.0,
+        "energy": 16000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "corgant": {
+        "name": "Units/CORGANT.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 8400.0,
+        "energy": 62000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 196.0
+    },
+    "corhaap": {
+        "name": "Units/CORHAAP.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 4700.0,
+        "energy": 65000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 225.0
+    },
+    "corhaapuw": {
+        "name": "Units/CORAAPLAT.s3o",
+        "description": "",
+        "cost": 31100.0,
+        "metal": 1900.0,
+        "energy": 23000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 142.0
+    },
+    "corhalab": {
+        "name": "Units/CORGANT.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 4900.0,
+        "energy": 52200.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 196.0
+    },
+    "corhavp": {
+        "name": "Units/CORHAVP.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 4900.0,
+        "energy": 46000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 196.0
+    },
+    "corhp": {
+        "name": "Units/CORHP.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 750.0,
+        "energy": 2750.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "corlab": {
+        "name": "Units/CORLAB.s3o",
+        "description": "",
+        "cost": 5000.0,
+        "metal": 470.0,
+        "energy": 1050.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 87.0
+    },
+    "corsaap": {
+        "name": "Units/LEGAAP.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 142.0
+    },
+    "corsalab": {
+        "name": "Units/LEGALAB.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "corsavp": {
+        "name": "Units/LEGAVP.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 144.0
+    },
+    "corvp": {
+        "name": "Units/CORVP.s3o",
+        "description": "",
+        "cost": 5650.0,
+        "metal": 570.0,
+        "energy": 1550.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "leghaap": {
+        "name": "Units/CORHAAP.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 4700.0,
+        "energy": 62000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 196.0
+    },
+    "corarad": {
+        "name": "Units/CORARAD.s3o",
+        "description": "",
+        "cost": 8000.0,
+        "metal": 400.0,
+        "energy": 14000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 35.0
+    },
+    "cordrag": {
+        "name": "Units/cordrag.s3o",
+        "description": "",
+        "cost": 255.0,
+        "metal": 8.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "coreyes": {
+        "name": "Units/COREYES.s3o",
+        "description": "",
+        "cost": 750.0,
+        "metal": 32.0,
+        "energy": 850.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 20.0
+    },
+    "corfort": {
+        "name": "Units/CORFORT.s3o",
+        "description": "",
+        "cost": 900.0,
+        "metal": 40.0,
+        "energy": 500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "corgate": {
+        "name": "Units/CORGATE.s3o",
+        "description": "",
+        "cost": 55000.0,
+        "metal": 3200.0,
+        "energy": 55000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 57.0
+    },
+    "corjamt": {
+        "name": "Units/CORJAMT.s3o",
+        "description": "",
+        "cost": 4570.0,
+        "metal": 115.0,
+        "energy": 5200.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 30.0
+    },
+    "cormine1": {
+        "name": "Units/CORMINE1.s3o",
+        "description": "",
+        "cost": 100.0,
+        "metal": 7.0,
+        "energy": 270.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "cormine2": {
+        "name": "Units/CORMINE2.s3o",
+        "description": "",
+        "cost": 300.0,
+        "metal": 25.0,
+        "energy": 1050.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "cormine3": {
+        "name": "Units/CORMINE3.s3o",
+        "description": "",
+        "cost": 700.0,
+        "metal": 50.0,
+        "energy": 2800.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "cormine4": {
+        "name": "Units/CORMINE2.s3o",
+        "description": "",
+        "cost": 200.0,
+        "metal": 16.0,
+        "energy": 1050.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 15.0
+    },
+    "cornanotc": {
+        "name": "Units/CORNANOTC.s3o",
+        "description": "",
+        "cost": 5300.0,
+        "metal": 210.0,
+        "energy": 3200.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 31.0
+    },
+    "cornanotct2": {
+        "name": "Units/CORNANOT2.s3o",
+        "description": "",
+        "cost": 21000.0,
+        "metal": 840.0,
+        "energy": 12800.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "corrad": {
+        "name": "Units/CORRAD.s3o",
+        "description": "",
+        "cost": 1140.0,
+        "metal": 60.0,
+        "energy": 630.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "corsd": {
+        "name": "Units/CORSD.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 750.0,
+        "energy": 6700.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "corshroud": {
+        "name": "Units/CORSHROUD.s3o",
+        "description": "",
+        "cost": 9400.0,
+        "metal": 130.0,
+        "energy": 20000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 34.0
+    },
+    "cortarg": {
+        "name": "Units/CORTARG.s3o",
+        "description": "",
+        "cost": 10900.0,
+        "metal": 800.0,
+        "energy": 7500.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 64.4927825928
+    },
+    "coranavaldefturret": {
+        "name": "Units/coranavaldefturret.s3o",
+        "description": "",
+        "cost": 24000.0,
+        "metal": 2000.0,
+        "energy": 22500.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 100.0
+    },
+    "coratl": {
+        "name": "Units/CORATL.s3o",
+        "description": "",
+        "cost": 10900.0,
+        "metal": 1050.0,
+        "energy": 8500.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 41.8139953613
+    },
+    "cordl": {
+        "name": "Units/CORDL.s3o",
+        "description": "",
+        "cost": 6200.0,
+        "metal": 250.0,
+        "energy": 2200.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 38.0
+    },
+    "corenaa": {
+        "name": "Units/CORENAA.s3o",
+        "description": "",
+        "cost": 23100.0,
+        "metal": 890.0,
+        "energy": 25000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 42.0
+    },
+    "corfdoom": {
+        "name": "Units/CORFDOOM.s3o",
+        "description": "",
+        "cost": 24000.0,
+        "metal": 1200.0,
+        "energy": 15000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 55.0
+    },
+    "corfhlt": {
+        "name": "Units/CORFHLT.s3o",
+        "description": "",
+        "cost": 11400.0,
+        "metal": 480.0,
+        "energy": 6200.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 73.0
+    },
+    "corfrock": {
+        "name": "Units/CORFROCK.s3o",
+        "description": "",
+        "cost": 5240.0,
+        "metal": 315.0,
+        "energy": 6100.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "corfrt": {
+        "name": "Units/CORFRT.s3o",
+        "description": "",
+        "cost": 2200.0,
+        "metal": 90.0,
+        "energy": 1000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 40.0
+    },
+    "corgplat": {
+        "name": "Units/CORGPLAT.s3o",
+        "description": "",
+        "cost": 3000.0,
+        "metal": 120.0,
+        "energy": 950.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 45.0
+    },
+    "cornavaldefturret": {
+        "name": "Units/cornavaldefturret.s3o",
+        "description": "",
+        "cost": 14000.0,
+        "metal": 700.0,
+        "energy": 9000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 80.0
+    },
+    "cortl": {
+        "name": "Units/CORTL.s3o",
+        "description": "",
+        "cost": 3750.0,
+        "metal": 170.0,
+        "energy": 1800.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 32.1831512451
+    },
+    "corfmkr": {
+        "name": "Units/CORFMKR.s3o",
+        "description": "",
+        "cost": 2680.0,
+        "metal": 1.0,
+        "energy": 1250.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 48.0
+    },
+    "cortide": {
+        "name": "Units/CORTIDE.s3o",
+        "description": "",
+        "cost": 2100.0,
+        "metal": 85.0,
+        "energy": 250.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 33.0
+    },
+    "coruwadves": {
+        "name": "Units/CORUWADVES.s3o",
+        "description": "",
+        "cost": 20400.0,
+        "metal": 840.0,
+        "energy": 11000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 90.0
+    },
+    "coruwadvms": {
+        "name": "Units/CORUWADVMS.s3o",
+        "description": "",
+        "cost": 20500.0,
+        "metal": 760.0,
+        "energy": 11000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 58.0
+    },
+    "coruwageo": {
+        "name": "Units/CORUWAGEO.s3o",
+        "description": "",
+        "cost": 32000.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "coruwes": {
+        "name": "Units/CORUWES.s3o",
+        "description": "",
+        "cost": 4260.0,
+        "metal": 175.0,
+        "energy": 1800.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 64.7775878906
+    },
+    "coruwfus": {
+        "name": "Units/CORUWFUS.s3o",
+        "description": "",
+        "cost": 105000.0,
+        "metal": 5400.0,
+        "energy": 34000.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 72.5986480713
+    },
+    "coruwgeo": {
+        "name": "Units/CORUWGEO.s3o",
+        "description": "",
+        "cost": 12900.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 63.0
+    },
+    "coruwmme": {
+        "name": "Units/CORUWMME.s3o",
+        "description": "",
+        "cost": 14100.0,
+        "metal": 640.0,
+        "energy": 8100.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 80.0
+    },
+    "coruwmmm": {
+        "name": "Units/CORUWMMM.s3o",
+        "description": "",
+        "cost": 31300.0,
+        "metal": 370.0,
+        "energy": 21000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 120.0
+    },
+    "coruwms": {
+        "name": "Units/CORUWMS.s3o",
+        "description": "",
+        "cost": 2920.0,
+        "metal": 340.0,
+        "energy": 590.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 80.0
+    },
+    "coramsub": {
+        "name": "Units/CORAMSUB.s3o",
+        "description": "",
+        "cost": 11400.0,
+        "metal": 1200.0,
+        "energy": 5600.0,
+        "speed": 750.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "corasy": {
+        "name": "Units/CORASY.s3o",
+        "description": "",
+        "cost": 15700.0,
+        "metal": 3100.0,
+        "energy": 10000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 183.0
+    },
+    "corfhp": {
+        "name": "Units/CORFHP.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 750.0,
+        "energy": 2750.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "corgantuw": {
+        "name": "Units/CORGANT.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 8350.0,
+        "energy": 62500.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 196.0
+    },
+    "corhasy": {
+        "name": "Units/CORHASY.s3o",
+        "description": "",
+        "cost": 67300.0,
+        "metal": 5000.0,
+        "energy": 40000.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 260.0
+    },
+    "corplat": {
+        "name": "Units/CORPLAT.s3o",
+        "description": "",
+        "cost": 11800.0,
+        "metal": 1400.0,
+        "energy": 5500.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 112.5
+    },
+    "corsasy": {
+        "name": "Units/CORASY.s3o",
+        "description": "",
+        "cost": 35000.0,
+        "metal": 3500.0,
+        "energy": 35000.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 183.0
+    },
+    "corsy": {
+        "name": "Units/CORSY.s3o",
+        "description": "",
+        "cost": 5100.0,
+        "metal": 450.0,
+        "energy": 950.0,
+        "speed": 500.0,
+        "accel": 0.0,
+        "size_z": 96.0
+    },
+    "corason": {
+        "name": "Units/CORASON.s3o",
+        "description": "",
+        "cost": 6100.0,
+        "metal": 160.0,
+        "energy": 2400.0,
+        "speed": 30.0,
+        "accel": 0.0,
+        "size_z": 45.0
+    },
+    "corfatf": {
+        "name": "Units/CORFATF.s3o",
+        "description": "",
+        "cost": 10300.0,
+        "metal": 800.0,
+        "energy": 7500.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "corfdrag": {
+        "name": "Units/CORFDRAG.s3o",
+        "description": "",
+        "cost": 400.0,
+        "metal": 15.0,
+        "energy": 0.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 36.0
+    },
+    "corfgate": {
+        "name": "Units/corfgate.s3o",
+        "description": "",
+        "cost": 59000.0,
+        "metal": 4100.0,
+        "energy": 74000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 60.0
+    },
+    "corfmine3": {
+        "name": "Units/CORFMINE3.s3o",
+        "description": "",
+        "cost": 400.0,
+        "metal": 32.0,
+        "energy": 1600.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 20.0
+    },
+    "corfrad": {
+        "name": "Units/CORFRAD.s3o",
+        "description": "",
+        "cost": 1800.0,
+        "metal": 130.0,
+        "energy": 1000.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 32.0
+    },
+    "cornanotc2plat": {
+        "name": "Units/cornanotc2plat.s3o",
+        "description": "",
+        "cost": 21000.0,
+        "metal": 840.0,
+        "energy": 12800.0,
+        "speed": 3000.0,
+        "accel": 0.0,
+        "size_z": 46.0
+    },
+    "cornanotcplat": {
+        "name": "Units/CORNANOTCPLAT.s3o",
+        "description": "",
+        "cost": 5300.0,
+        "metal": 230.0,
+        "energy": 2600.0,
+        "speed": 1000.0,
+        "accel": 0.0,
+        "size_z": 31.0
+    },
+    "corsonar": {
+        "name": "Units/CORSONAR.s3o",
+        "description": "",
+        "cost": 900.0,
+        "metal": 20.0,
+        "energy": 450.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 30.0
+    },
+    "corcat": {
+        "name": "Units/CORCAT.s3o",
+        "description": "",
+        "cost": 127000.0,
+        "metal": 4900.0,
+        "energy": 80000.0,
+        "speed": 48.0,
+        "accel": 111.78,
+        "size_z": 48.0
+    },
+    "cordemon": {
+        "name": "Units/cordemon.s3o",
+        "description": "",
+        "cost": 120000.0,
+        "metal": 6000.0,
+        "energy": 90000.0,
+        "speed": 63.0,
+        "accel": 198.72,
+        "size_z": 60.0
+    },
+    "corjugg": {
+        "name": "Units/CORJUGG.s3o",
+        "description": "",
+        "cost": 630000.0,
+        "metal": 20000.0,
+        "energy": 513000.0,
+        "speed": 16.5,
+        "accel": 49.68,
+        "size_z": 90.0
+    },
+    "corkarg": {
+        "name": "Units/CORKARG.s3o",
+        "description": "",
+        "cost": 76000.0,
+        "metal": 2500.0,
+        "energy": 57000.0,
+        "speed": 45.0,
+        "accel": 99.36,
+        "size_z": 42.0
+    },
+    "corkorg": {
+        "name": "Units/corkorg.s3o",
+        "description": "",
+        "cost": 555000.0,
+        "metal": 29000.0,
+        "energy": 615000.0,
+        "speed": 37.0,
+        "accel": 111.78,
+        "size_z": 85.0
+    },
+    "corshiva": {
+        "name": "Units/CORSHIVA.s3o",
+        "description": "",
+        "cost": 30600.0,
+        "metal": 1550.0,
+        "energy": 23000.0,
+        "speed": 48.3,
+        "accel": 62.10000000000001,
+        "size_z": 61.0
+    },
+    "corsok": {
+        "name": "Units/CORSOK.s3o",
+        "description": "",
+        "cost": 27000.0,
+        "metal": 950.0,
+        "energy": 19000.0,
+        "speed": 45.3,
+        "accel": 15.578999999999999,
+        "size_z": 58.0
+    },
+    "corah": {
+        "name": "Units/CORAH.s3o",
+        "description": "",
+        "cost": 3650.0,
+        "metal": 250.0,
+        "energy": 4700.0,
+        "speed": 88.5,
+        "accel": 56.843999999999994,
+        "size_z": 35.0
+    },
+    "corch": {
+        "name": "Units/CORCH.s3o",
+        "description": "",
+        "cost": 4580.0,
+        "metal": 190.0,
+        "energy": 3000.0,
+        "speed": 60.899,
+        "accel": 34.128,
+        "size_z": 40.0
+    },
+    "corhal": {
+        "name": "Units/CORHAL.s3o",
+        "description": "",
+        "cost": 12900.0,
+        "metal": 640.0,
+        "energy": 13000.0,
+        "speed": 45.3,
+        "accel": 21.852,
+        "size_z": 42.0
+    },
+    "cormh": {
+        "name": "Units/CORMH.s3o",
+        "description": "",
+        "cost": 3500.0,
+        "metal": 200.0,
+        "energy": 3300.0,
+        "speed": 63.9,
+        "accel": 39.735,
+        "size_z": 38.0
+    },
+    "corsh": {
+        "name": "Units/CORSH.s3o",
+        "description": "",
+        "cost": 1500.0,
+        "metal": 75.0,
+        "energy": 1500.0,
+        "speed": 109.5,
+        "accel": 92.034,
+        "size_z": 30.0
+    },
+    "corsnap": {
+        "name": "Units/CORSNAP.s3o",
+        "description": "",
+        "cost": 3500.0,
+        "metal": 300.0,
+        "energy": 3100.0,
+        "speed": 66.99,
+        "accel": 41.616,
+        "size_z": 38.0
+    },
+    "corcsa": {
+        "name": "Units/CORCSA.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 140.0,
+        "energy": 8200.0,
+        "speed": 217.5,
+        "accel": 64.8,
+        "size_z": 32.0
+    },
+    "corcut": {
+        "name": "Units/CORCUT.s3o",
+        "description": "",
+        "cost": 9470.0,
+        "metal": 230.0,
+        "energy": 5400.0,
+        "speed": 152.39999,
+        "accel": 162.0,
+        "size_z": 48.0
+    },
+    "corhaca": {
+        "name": "Units/CORACA.s3o",
+        "description": "",
+        "cost": 48000.0,
+        "metal": 1040.0,
+        "energy": 28800.0,
+        "speed": 182.0,
+        "accel": 64.8,
+        "size_z": 32.0
+    },
+    "corhunt": {
+        "name": "Units/CORHUNT.s3o",
+        "description": "",
+        "cost": 9500.0,
+        "metal": 130.0,
+        "energy": 6900.0,
+        "speed": 324.29999,
+        "accel": 128.25,
+        "size_z": 48.0
+    },
+    "corsb": {
+        "name": "Units/CORSB.s3o",
+        "description": "",
+        "cost": 7000.0,
+        "metal": 200.0,
+        "energy": 8200.0,
+        "speed": 240.0,
+        "accel": 54.0,
+        "size_z": 48.0
+    },
+    "corseap": {
+        "name": "Units/CORSEAP.s3o",
+        "description": "",
+        "cost": 10700.0,
+        "metal": 230.0,
+        "energy": 5500.0,
+        "speed": 266.10001,
+        "accel": 198.0,
+        "size_z": 48.0
+    },
+    "corsfig": {
+        "name": "Units/CORSFIG.s3o",
+        "description": "",
+        "cost": 5200.0,
+        "metal": 90.0,
+        "energy": 4600.0,
+        "speed": 315.60001,
+        "accel": 195.75,
+        "size_z": 32.0
+    },
+    "corsfig2": {
+        "name": "Units/CORSFIG2.s3o",
+        "description": "",
+        "cost": 5200.0,
+        "metal": 90.0,
+        "energy": 4600.0,
+        "speed": 315.60001,
+        "accel": 195.75,
+        "size_z": 32.0
+    },
+    "leghaca": {
+        "name": "Units/legaca.s3o",
+        "description": "",
+        "cost": 48000.0,
+        "metal": 960.0,
+        "energy": 32800.0,
+        "speed": 217.5,
+        "accel": 64.8,
+        "size_z": 32.0
+    },
+    "corcs": {
+        "name": "Units/CORCS.s3o",
+        "description": "",
+        "cost": 3700.0,
+        "metal": 200.0,
+        "energy": 2000.0,
+        "speed": 60.0,
+        "accel": 32.103,
+        "size_z": 47.0
+    },
+    "coresupp": {
+        "name": "Units/CORESUPP.s3o",
+        "description": "",
+        "cost": 1400.0,
+        "metal": 100.0,
+        "energy": 1000.0,
+        "speed": 109.8,
+        "accel": 99.486,
+        "size_z": 40.0
+    },
+    "corpship": {
+        "name": "Units/CORPSHIP.s3o",
+        "description": "",
+        "cost": 4550.0,
+        "metal": 420.0,
+        "energy": 2800.0,
+        "speed": 82.5,
+        "accel": 39.519,
+        "size_z": 71.0
+    },
+    "corpt": {
+        "name": "Units/CORPT.s3o",
+        "description": "",
+        "cost": 2500.0,
+        "metal": 210.0,
+        "energy": 1400.0,
+        "speed": 69.0,
+        "accel": 45.0,
+        "size_z": 60.0
+    },
+    "correcl": {
+        "name": "Units/CORRECL.s3o",
+        "description": "",
+        "cost": 5960.0,
+        "metal": 200.0,
+        "energy": 3200.0,
+        "speed": 100.0,
+        "accel": 47.997,
+        "size_z": 48.0
+    },
+    "corroy": {
+        "name": "Units/CORROY.s3o",
+        "description": "",
+        "cost": 10600.0,
+        "metal": 960.0,
+        "energy": 7200.0,
+        "speed": 62.4,
+        "accel": 24.813000000000002,
+        "size_z": 82.0
+    },
+    "corsub": {
+        "name": "Units/CORSUB.s3o",
+        "description": "",
+        "cost": 7200.0,
+        "metal": 580.0,
+        "energy": 4000.0,
+        "speed": 57.0,
+        "accel": 40.59,
+        "size_z": 50.0
+    },
+    "coracsub": {
+        "name": "Units/CORACSUB.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 700.0,
+        "energy": 9000.0,
+        "speed": 64.8,
+        "accel": 37.800000000000004,
+        "size_z": 74.0
+    },
+    "corantiship": {
+        "name": "Units/CORANTISHIP.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1400.0,
+        "energy": 12000.0,
+        "speed": 63.0,
+        "accel": 15.498,
+        "size_z": 140.0
+    },
+    "corarch": {
+        "name": "Units/CORARCH.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 1000.0,
+        "energy": 12000.0,
+        "speed": 60.48,
+        "accel": 28.143,
+        "size_z": 74.0
+    },
+    "corbats": {
+        "name": "Units/CORBATS.s3o",
+        "description": "",
+        "cost": 36000.0,
+        "metal": 3400.0,
+        "energy": 23000.0,
+        "speed": 53.1,
+        "accel": 12.843,
+        "size_z": 148.0
+    },
+    "corblackhy": {
+        "name": "Units/CORBLACKHY.s3o",
+        "description": "",
+        "cost": 210000.0,
+        "metal": 21000.0,
+        "energy": 190000.0,
+        "speed": 49.5,
+        "accel": 7.281,
+        "size_z": 186.0
+    },
+    "corcarry": {
+        "name": "Units/CORCARRY.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1400.0,
+        "energy": 17000.0,
+        "speed": 60.24,
+        "accel": 14.822999999999999,
+        "size_z": 153.0
+    },
+    "corcrus": {
+        "name": "Units/CORCRUS.s3o",
+        "description": "",
+        "cost": 17000.0,
+        "metal": 1000.0,
+        "energy": 12000.0,
+        "speed": 54.0,
+        "accel": 23.841,
+        "size_z": 115.0
+    },
+    "cordesolator": {
+        "name": "Units/CORDESOLATOR.s3o",
+        "description": "",
+        "cost": 140000.0,
+        "metal": 9000.0,
+        "energy": 95000.0,
+        "speed": 45.0,
+        "accel": 27.0,
+        "size_z": 100.0
+    },
+    "cordronecarry": {
+        "name": "Units/CORDRONECARRY.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 1300.0,
+        "energy": 13000.0,
+        "speed": 63.0,
+        "accel": 15.498,
+        "size_z": 136.0
+    },
+    "corfship": {
+        "name": "Units/CORFSHIP.s3o",
+        "description": "",
+        "cost": 9400.0,
+        "metal": 630.0,
+        "energy": 9400.0,
+        "speed": 93.0,
+        "accel": 54.0,
+        "size_z": 81.0
+    },
+    "corhacs": {
+        "name": "Units/CORMLS.s3o",
+        "description": "",
+        "cost": 49600.0,
+        "metal": 1180.0,
+        "energy": 23600.0,
+        "speed": 55.0,
+        "accel": 31.014,
+        "size_z": 42.0
+    },
+    "cormls": {
+        "name": "Units/CORMLS.s3o",
+        "description": "",
+        "cost": 4800.0,
+        "metal": 200.0,
+        "energy": 3300.0,
+        "speed": 57.75,
+        "accel": 31.014,
+        "size_z": 42.0
+    },
+    "cormship": {
+        "name": "Units/CORMSHIP.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 2000.0,
+        "energy": 10000.0,
+        "speed": 61.44,
+        "accel": 25.191000000000003,
+        "size_z": 101.0
+    },
+    "coronager": {
+        "name": "Units/coronager.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 950.0,
+        "energy": 17000.0,
+        "speed": 58.0,
+        "accel": 27.0,
+        "size_z": 60.0
+    },
+    "corprince": {
+        "name": "Units/CORPRINCE.s3o",
+        "description": "",
+        "cost": 133300.0,
+        "metal": 13500.0,
+        "energy": 115000.0,
+        "speed": 53.85,
+        "accel": 9.936,
+        "size_z": 225.0
+    },
+    "corsacvsub": {
+        "name": "Units/CORACSUB.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 500.0,
+        "energy": 9000.0,
+        "speed": 64.8,
+        "accel": 37.800000000000004,
+        "size_z": 74.0
+    },
+    "corsentinel": {
+        "name": "Units/CORSENTINEL.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 5.0,
+        "accel": 0.0,
+        "size_z": 102.0
+    },
+    "corshark": {
+        "name": "Units/CORSHARK.s3o",
+        "description": "",
+        "cost": 18000.0,
+        "metal": 730.0,
+        "energy": 14000.0,
+        "speed": 84.0,
+        "accel": 45.0,
+        "size_z": 64.0
+    },
+    "corsjam": {
+        "name": "Units/CORSJAM.s3o",
+        "description": "",
+        "cost": 14500.0,
+        "metal": 280.0,
+        "energy": 4200.0,
+        "speed": 40.0,
+        "accel": 32.166000000000004,
+        "size_z": 70.0
+    },
+    "corssub": {
+        "name": "Units/CORSSUB.s3o",
+        "description": "",
+        "cost": 24750.0,
+        "metal": 1900.0,
+        "energy": 29000.0,
+        "speed": 39.0,
+        "accel": 16.2,
+        "size_z": 60.0
+    },
+    "cortdrone": {
+        "name": "Units/CORDRONE.s3o",
+        "description": "",
+        "cost": 1000.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 16.0
+    },
+    "corcv": {
+        "name": "Units/CORCV.s3o",
+        "description": "",
+        "cost": 4160.0,
+        "metal": 145.0,
+        "energy": 2100.0,
+        "speed": 51.0,
+        "accel": 27.441,
+        "size_z": 49.0
+    },
+    "corfav": {
+        "name": "Units/CORFAV.s3o",
+        "description": "",
+        "cost": 1150.0,
+        "metal": 26.0,
+        "energy": 270.0,
+        "speed": 153.0,
+        "accel": 180.0,
+        "size_z": 26.0
+    },
+    "corgarp": {
+        "name": "Units/CORGARP.s3o",
+        "description": "",
+        "cost": 3100.0,
+        "metal": 220.0,
+        "energy": 2600.0,
+        "speed": 58.5,
+        "accel": 29.034,
+        "size_z": 36.0
+    },
+    "corgator": {
+        "name": "Units/CORGATOR.s3o",
+        "description": "",
+        "cost": 2200.0,
+        "metal": 120.0,
+        "energy": 1040.0,
+        "speed": 85.5,
+        "accel": 41.678999999999995,
+        "size_z": 38.0
+    },
+    "corlevlr": {
+        "name": "Units/CORLEVLR.s3o",
+        "description": "",
+        "cost": 3000.0,
+        "metal": 220.0,
+        "energy": 2600.0,
+        "speed": 40.5,
+        "accel": 14.886,
+        "size_z": 32.0
+    },
+    "cormist": {
+        "name": "Units/CORMIST.s3o",
+        "description": "",
+        "cost": 3440.0,
+        "metal": 155.0,
+        "energy": 2400.0,
+        "speed": 52.0,
+        "accel": 19.872,
+        "size_z": 43.0
+    },
+    "cormlv": {
+        "name": "Units/CORMLV.s3o",
+        "description": "",
+        "cost": 3640.0,
+        "metal": 65.0,
+        "energy": 1300.0,
+        "speed": 69.0,
+        "accel": 60.129,
+        "size_z": 45.0
+    },
+    "cormuskrat": {
+        "name": "Units/CORMUSKRAT.s3o",
+        "description": "",
+        "cost": 6860.0,
+        "metal": 170.0,
+        "energy": 3500.0,
+        "speed": 40.5,
+        "accel": 15.498,
+        "size_z": 46.0
+    },
+    "corraid": {
+        "name": "Units/CORRAID.s3o",
+        "description": "",
+        "cost": 3310.0,
+        "metal": 235.0,
+        "energy": 2400.0,
+        "speed": 72.9,
+        "accel": 36.504,
+        "size_z": 32.0
+    },
+    "corwolv": {
+        "name": "Units/CORWOLV.s3o",
+        "description": "",
+        "cost": 3550.0,
+        "metal": 170.0,
+        "energy": 2500.0,
+        "speed": 48.0,
+        "accel": 20.637,
+        "size_z": 38.0
+    },
+    "coracv": {
+        "name": "Units/CORACV.s3o",
+        "description": "",
+        "cost": 12900.0,
+        "metal": 580.0,
+        "energy": 7000.0,
+        "speed": 49.5,
+        "accel": 22.923,
+        "size_z": 47.0
+    },
+    "corban": {
+        "name": "Units/CORBAN.s3o",
+        "description": "",
+        "cost": 23100.0,
+        "metal": 1000.0,
+        "energy": 23000.0,
+        "speed": 54.0,
+        "accel": 18.0,
+        "size_z": 42.0
+    },
+    "coreter": {
+        "name": "Units/CORETER.s3o",
+        "description": "",
+        "cost": 6400.0,
+        "metal": 105.0,
+        "energy": 1900.0,
+        "speed": 41.4,
+        "accel": 32.247,
+        "size_z": 47.5
+    },
+    "corgol": {
+        "name": "Units/CORGOL.s3o",
+        "description": "",
+        "cost": 30000.0,
+        "metal": 1650.0,
+        "energy": 28000.0,
+        "speed": 40.5,
+        "accel": 9.161999999999999,
+        "size_z": 50.0
+    },
+    "corhacv": {
+        "name": "Units/CORPRINTER.s3o",
+        "description": "",
+        "cost": 40400.0,
+        "metal": 1520.0,
+        "energy": 17200.0,
+        "speed": 60.0,
+        "accel": 22.923,
+        "size_z": 54.0
+    },
+    "cormabm": {
+        "name": "Units/CORMABM.s3o",
+        "description": "",
+        "cost": 42000.0,
+        "metal": 1250.0,
+        "energy": 32000.0,
+        "speed": 51.0,
+        "accel": 33.489,
+        "size_z": 40.0
+    },
+    "cormart": {
+        "name": "Units/CORMART.s3o",
+        "description": "",
+        "cost": 6500.0,
+        "metal": 400.0,
+        "energy": 4400.0,
+        "speed": 58.0,
+        "accel": 27.0,
+        "size_z": 41.0
+    },
+    "corparrow": {
+        "name": "Units/CORPARROW.s3o",
+        "description": "",
+        "cost": 19000.0,
+        "metal": 1050.0,
+        "energy": 21000.0,
+        "speed": 51.0,
+        "accel": 23.939999999999998,
+        "size_z": 53.0
+    },
+    "corphantom": {
+        "name": "Units/corphantom.s3o",
+        "description": "",
+        "cost": 9000.0,
+        "metal": 300.0,
+        "energy": 4500.0,
+        "speed": 72.0,
+        "accel": 62.73,
+        "size_z": 36.0
+    },
+    "corprinter": {
+        "name": "Units/CORPRINTER.s3o",
+        "description": "",
+        "cost": 10200.0,
+        "metal": 330.0,
+        "energy": 4700.0,
+        "speed": 49.5,
+        "accel": 22.923,
+        "size_z": 54.0
+    },
+    "correap": {
+        "name": "Units/CORREAP.s3o",
+        "description": "",
+        "cost": 11500.0,
+        "metal": 665.0,
+        "energy": 10000.0,
+        "speed": 70.5,
+        "accel": 32.580000000000005,
+        "size_z": 38.0
+    },
+    "corsacv": {
+        "name": "Units/LEGACV.s3o",
+        "description": "",
+        "cost": 12900.0,
+        "metal": 450.0,
+        "energy": 7000.0,
+        "speed": 49.5,
+        "accel": 22.923,
+        "size_z": 47.0
+    },
+    "corsala": {
+        "name": "Units/CORSALA.s3o",
+        "description": "",
+        "cost": 7900.0,
+        "metal": 350.0,
+        "energy": 7000.0,
+        "speed": 72.0,
+        "accel": 46.125,
+        "size_z": 31.0
+    },
+    "corseal": {
+        "name": "Units/CORSEAL.s3o",
+        "description": "",
+        "cost": 12050.0,
+        "metal": 480.0,
+        "energy": 9100.0,
+        "speed": 72.0,
+        "accel": 46.125,
+        "size_z": 31.0
+    },
+    "corsent": {
+        "name": "Units/CORSENT.s3o",
+        "description": "",
+        "cost": 12000.0,
+        "metal": 470.0,
+        "energy": 10500.0,
+        "speed": 69.0,
+        "accel": 52.407,
+        "size_z": 43.5
+    },
+    "corsiegebreaker": {
+        "name": "Units/CORSIEGEBREAKER.s3o",
+        "description": "",
+        "cost": 20000.0,
+        "metal": 0.0,
+        "energy": 0.0,
+        "speed": 0.0,
+        "accel": 0.0,
+        "size_z": 55.0
+    },
+    "cortrem": {
+        "name": "Units/CORTREM.s3o",
+        "description": "",
+        "cost": 31100.0,
+        "metal": 1850.0,
+        "energy": 49000.0,
+        "speed": 40.5,
+        "accel": 8.82,
+        "size_z": 51.0
+    },
+    "corvac": {
+        "name": "Units/scavboss/CORVAC.s3o",
+        "description": "",
+        "cost": 10000.0,
+        "metal": 370.0,
+        "energy": 5500.0,
+        "speed": 49.5,
+        "accel": 22.923,
+        "size_z": 54.0
+    },
+    "corvacct": {
+        "name": "Units/scavboss/CORVACCT.s3o",
+        "description": "",
+        "cost": 10.0,
+        "metal": 1.0,
+        "energy": 1.0,
+        "speed": 49.5,
+        "accel": 22.923,
+        "size_z": 0.0
+    },
+    "corvrad": {
+        "name": "Units/CORVRAD.s3o",
+        "description": "",
+        "cost": 4220.0,
+        "metal": 92.0,
+        "energy": 1300.0,
+        "speed": 48.0,
+        "accel": 18.774,
+        "size_z": 29.0
+    },
+    "corvroc": {
+        "name": "Units/CORVROC.s3o",
+        "description": "",
+        "cost": 15000.0,
+        "metal": 880.0,
+        "energy": 6700.0,
+        "speed": 33.0,
+        "accel": 22.401,
+        "size_z": 44.0
+    }
+}
